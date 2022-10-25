@@ -1,0 +1,155 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div class="bgg bgg--{{section.id}}">
+<div class="text-{{ section.settings.align_text }} page-width{% if section.settings.narrow_column %} page-width--narrow{% endif %}">
+  {%- for block in section.blocks -%}
+    <div class="theme-block" {{ block.shopify_attributes }}>
+      {%- case block.type -%}
+      
+       {%- when 'banner' -%}
+                    <div class="aos-animate">
+              {%- if block.settings.link != blank -%}
+                <a href="{{ block.settings.link }}">
+              {%- endif -%}
+              {%- if block.settings.image != blank -%}
+                <div class="image-wra" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+                  {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  <img class=""
+                      src="{{ block.settings.image | img_url: '1900x'  }}"
+                     
+                      alt="{{ block.settings.image.alt }}">
+                  <noscript>
+                    <img class="lazyloaded" src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.image.alt }}">
+                  </noscript>
+                </div>
+                {%- else -%}
+                  <div class="image-wrap">
+                    {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+              {%- endif -%}
+              {%- if block.settings.link != blank -%}
+                </a>
+              {%- endif -%}
+            </div>
+        {%- when 'heading' -%}
+          <h2 class="fff">{{ block.settings.title | escape }}</h2>
+        {%- when 'page' -%}
+          <div class="rte">
+            {%- if block.settings.page_text != blank -%}
+              {{ pages[block.settings.page_text].content }}
+            {%- else -%}
+              {{ 'home_page.onboarding.no_content' | t }}
+            {%- endif -%}
+          </div>
+        {%- when 'text' -%}
+          <div class="rte clsd">
+            {%- if block.settings.text != blank -%}
+              {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
+              {{ block.settings.text }}
+              {%- if block.settings.enlarge_text %}</div>{% endif -%}
+            {%- else -%}
+              {{ 'home_page.onboarding.no_content' | t }}
+            {%- endif -%}
+          </div>
+        {%- when 'button' -%}
+          <div class="rte">
+            <a href="{{ block.settings.link }}" class="btn">
+              {{ block.settings.link_text }}
+            </a>
+          </div>
+      {%- endcase -%}
+    </div>
+  {%- endfor -%}
+</div>
+
+</div>
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+
+<style>
+  .bgg{
+   padding:70px 0px;
+    
+  }
+  .bgg--{{section.id}}{
+    background:{{section.settings.bg}}; 
+  }
+  .shopify-section.index-section.mb {
+    margin-bottom: 0px;
+}
+</style>
+{% schema %}
+  {
+    "name": "Banner",
+    "class": "index-section mb",
+    "settings": [
+      {
+        "type": "color",
+        "id": "bg",
+        "label": "Background Color"
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Centered"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "narrow_column",
+        "label": "Narrow column",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "divider",
+        "label": "Show section divider",
+        "default": false
+      }
+    ],
+    "blocks" : [
+      {
+        "type": "banner",
+        "name": "Banner",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "name": "Heading",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Rich text"
+          }
+        ]
+      }
+    ],
+    "presets": [{
+      "name": "Banner",
+      "blocks": [
+      ]
+    }]
+  }
+{% endschema %}
