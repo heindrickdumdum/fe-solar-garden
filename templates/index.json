@@ -155,6 +155,7 @@
         "home_featured_products": "our-best-selling-garden-lights",
         "per_row": 3,
         "rows": 2,
+        "view_all_link": "shopify:\/\/collections\/all",
         "mobile_scrollable": false,
         "view_all": true,
         "divider": false
