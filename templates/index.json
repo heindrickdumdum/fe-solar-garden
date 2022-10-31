@@ -221,7 +221,7 @@
             "hide_thumbnails": false,
             "product_handle": "festoon-lights",
             "aggregated": true,
-            "data-limit": 15,
+            "data-limit": 8,
             "maxwidth": 1440
           }
         }
