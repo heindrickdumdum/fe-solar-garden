@@ -1,1 +1,274 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slideshow-1":{"type":"image","settings":{"top_subheading":"","title":"Australia’s highest-rated \nsolar garden lights.","title_size":50,"subheading":"Loved by over 15,000 Aussies.","link":"shopify:\/\/collections\/our-best-selling-garden-lights","link_text":"Shop Sale Now","link_2":"","link_text_2":"","color_accent":"#ffd80e","text_align":"vertical-center horizontal-left","image":"shopify:\/\/shop_images\/H49936a7edbfd4de5ad4940799d3bf6d8h_1.png","image_mobile":"shopify:\/\/shop_images\/H49936a7edbfd4de5ad4940799d3bf6d8h_2.png","overlay_opacity":0,"focal_point":"top center"}}},"block_order":["slideshow-1"],"settings":{"section_height":"natural","mobile_height":"auto","parallax":false,"style":"dots","autoplay":false,"autoplay_speed":7}},"16573518799e179780":{"type":"featured-collections","blocks":{"16573518782e755155-0":{"type":"collection","settings":{"collection":"our-best-selling-garden-lights","link":"https:\/\/solagarden.com.au\/products\/festoon-lights","image":"shopify:\/\/shop_images\/SolaGardenLights_Main_2.png","title":"Shop <br> Festoon Lights","focal_point":"center center"}},"16573518782e755155-1":{"type":"collection","settings":{"collection":"our-best-selling-garden-lights","link":"https:\/\/solagarden.com.au\/products\/waterproof-led-light-pack","image":"shopify:\/\/shop_images\/SolaGardenLights_Main_4.png","title":"Shop  Ground Lights","focal_point":"center center"}},"16573518782e755155-2":{"type":"collection","settings":{"collection":"new-bundles","link":"shopify:\/\/collections\/new-bundles","image":"shopify:\/\/shop_images\/SolaGardenLights_Main_3.png","title":"Shop <br> Bundles","focal_point":"center center"}}},"block_order":["16573518782e755155-0","16573518782e755155-1","16573518782e755155-2"],"settings":{"title":"Shop by category","divider":false,"per_row":3,"enable_gutter":true}},"1657351769511d8632":{"type":"text-columns","blocks":{"165735176927221e17-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Untitled_design__44_-removebg-preview.png","image_width":100,"title":"Solar powered","text":"<p>Save money on electricity bills every month.<\/p>","button_label":"","button_link":""}},"165735176927221e17-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Untitled_design__46_-removebg-preview.png","image_width":100,"title":"Weatherproof","text":"<p>Completely weatherproof and built to last.<\/p>","button_label":"","button_link":""}},"165735176927221e17-2":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Untitled_design__47_-removebg-preview.png","image_width":100,"title":"Life guarantee","text":"<p>Lifetime replacement guarantee if they break.<\/p>","button_label":"","button_link":""}},"21158bc8-34df-478a-abe0-0b92688bbe15":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Untitled_design__52_-removebg-preview.png","image_width":100,"title":"Sustainability","text":"<p>1% of sales supports sustainability projects.<\/p>","button_label":"","button_link":"shopify:\/\/pages\/our-mission"}}},"block_order":["165735176927221e17-0","165735176927221e17-1","165735176927221e17-2","21158bc8-34df-478a-abe0-0b92688bbe15"],"settings":{"bg":"#f9f9f9","title":"Why SolaGarden?","button_label":"Shop All Products","button_link":"shopify:\/\/collections\/our-best-selling-garden-lights","align_text":"center","divider":false}},"165735276592636065":{"type":"featured-collection","settings":{"title":"Shop our best-selling lights","home_featured_products":"our-best-selling-garden-lights","per_row":3,"rows":2,"mobile_scrollable":false,"view_all":true,"divider":false}},"165824850935159938":{"type":"review-text","blocks":{"165824850955c28604-1":{"type":"text","settings":{"enlarge_text":false,"text":"950+ Reviews"}},"165824850955c28604-0":{"type":"heading","settings":{"title":"Loved by over 15,000 Aussies!"}}},"block_order":["165824850955c28604-1","165824850955c28604-0"],"settings":{"align_text":"center","narrow_column":true,"divider":false}},"16573528288bc0733d":{"type":"apps","blocks":{"7cd8787e-8efd-4dde-abc2-9961b4014dd7":{"type":"shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","disabled":true,"settings":{"maxWidth":1100,"borderRadius":8,"itemsPerView":4,"maxNumberOfCharacters":100,"imageRatio":"0.72","reviewerNameColor":"#000000","textColor":"#000000","itemBackgroundColor":"#ffffff","starsColor":"","starsBackgroundColor":"#ffffff","arrows_backgroundColor":"#ffffff","arrows_iconColor":"#9a9a9a","shadow":"offset-dark","border_active":false,"border_width":2,"border_color":"#000000","productIds":"festoon-lights"}},"793e8546-8b1a-44f7-9403-182ff2c26aad":{"type":"shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"only_photos":false,"hide_thumbnails":false,"product_handle":"festoon-lights","aggregated":true,"data-limit":15,"maxwidth":1440}}},"block_order":["7cd8787e-8efd-4dde-abc2-9961b4014dd7","793e8546-8b1a-44f7-9403-182ff2c26aad"],"settings":{"full_width":false,"space_around":true}},"1657600756854abaa7":{"type":"banner","blocks":{"16067607-f9c3-40a3-8e03-ca8e3cb8ac57":{"type":"heading","settings":{"title":"Add that wow factor to your home today!"}},"f5f75fec-5d90-4fd7-a9b3-94e715970c65":{"type":"banner","settings":{"image":"shopify:\/\/shop_images\/SG_-_UGC_V4_71b45b6a-d576-4313-bec0-c1a66d64d35a.jpg"}}},"block_order":["16067607-f9c3-40a3-8e03-ca8e3cb8ac57","f5f75fec-5d90-4fd7-a9b3-94e715970c65"],"settings":{"bg":"#f9f9f9","align_text":"center","narrow_column":false,"divider":false}}},"order":["slideshow","16573518799e179780","1657351769511d8632","165735276592636065","165824850935159938","16573528288bc0733d","1657600756854abaa7"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Australia’s highest-rated \nsolar garden lights.",
+            "title_size": 50,
+            "subheading": "Loved by over 15,000 Aussies.",
+            "link": "shopify:\/\/collections\/our-best-selling-garden-lights",
+            "link_text": "Shop Sale Now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffd80e",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/H49936a7edbfd4de5ad4940799d3bf6d8h_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/H49936a7edbfd4de5ad4940799d3bf6d8h_2.png",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "dots",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "16573518799e179780": {
+      "type": "featured-collections",
+      "blocks": {
+        "16573518782e755155-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "our-best-selling-garden-lights",
+            "link": "https:\/\/solagarden.com.au\/products\/festoon-lights",
+            "image": "shopify:\/\/shop_images\/SolaGardenLights_Main_2.png",
+            "title": "Shop  Festoon Lights",
+            "focal_point": "center center"
+          }
+        },
+        "16573518782e755155-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "our-best-selling-garden-lights",
+            "link": "https:\/\/solagarden.com.au\/products\/waterproof-led-light-pack",
+            "image": "shopify:\/\/shop_images\/SolaGardenLights_Main_4.png",
+            "title": "Shop  Ground Lights",
+            "focal_point": "center center"
+          }
+        },
+        "16573518782e755155-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-bundles",
+            "link": "shopify:\/\/collections\/new-bundles",
+            "image": "shopify:\/\/shop_images\/SolaGardenLights_Main_3.png",
+            "title": "Shop <br> Bundles",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16573518782e755155-0",
+        "16573518782e755155-1",
+        "16573518782e755155-2"
+      ],
+      "settings": {
+        "title": "Choose Your Lights",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    },
+    "1657351769511d8632": {
+      "type": "text-columns",
+      "blocks": {
+        "165735176927221e17-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design__44_-removebg-preview.png",
+            "image_width": 100,
+            "title": "Solar powered",
+            "text": "<p>Save money on electricity bills every month.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "165735176927221e17-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design__46_-removebg-preview.png",
+            "image_width": 100,
+            "title": "Weatherproof",
+            "text": "<p>Completely weatherproof and built to last.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "165735176927221e17-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design__47_-removebg-preview.png",
+            "image_width": 100,
+            "title": "Life guarantee",
+            "text": "<p>Lifetime replacement guarantee if they break.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "21158bc8-34df-478a-abe0-0b92688bbe15": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design__52_-removebg-preview.png",
+            "image_width": 100,
+            "title": "Sustainability",
+            "text": "<p>1% of sales supports sustainability projects.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/our-mission"
+          }
+        }
+      },
+      "block_order": [
+        "165735176927221e17-0",
+        "165735176927221e17-1",
+        "165735176927221e17-2",
+        "21158bc8-34df-478a-abe0-0b92688bbe15"
+      ],
+      "settings": {
+        "bg": "#f9f9f9",
+        "title": "Why SolaGarden?",
+        "button_label": "Shop All Products",
+        "button_link": "shopify:\/\/collections\/our-best-selling-garden-lights",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "165735276592636065": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop our best-selling lights",
+        "home_featured_products": "our-best-selling-garden-lights",
+        "per_row": 3,
+        "rows": 2,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "165824850935159938": {
+      "type": "review-text",
+      "blocks": {
+        "165824850955c28604-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "950+ Reviews"
+          }
+        },
+        "165824850955c28604-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Loved by over 15,000 Aussies!"
+          }
+        }
+      },
+      "block_order": [
+        "165824850955c28604-1",
+        "165824850955c28604-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "16573528288bc0733d": {
+      "type": "apps",
+      "blocks": {
+        "7cd8787e-8efd-4dde-abc2-9961b4014dd7": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "festoon-lights"
+          }
+        },
+        "793e8546-8b1a-44f7-9403-182ff2c26aad": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "festoon-lights",
+            "aggregated": true,
+            "data-limit": 15,
+            "maxwidth": 1440
+          }
+        }
+      },
+      "block_order": [
+        "7cd8787e-8efd-4dde-abc2-9961b4014dd7",
+        "793e8546-8b1a-44f7-9403-182ff2c26aad"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1657600756854abaa7": {
+      "type": "banner",
+      "blocks": {
+        "16067607-f9c3-40a3-8e03-ca8e3cb8ac57": {
+          "type": "heading",
+          "settings": {
+            "title": "Add that wow factor to your home today!"
+          }
+        },
+        "f5f75fec-5d90-4fd7-a9b3-94e715970c65": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SG_-_UGC_V4_71b45b6a-d576-4313-bec0-c1a66d64d35a.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "16067607-f9c3-40a3-8e03-ca8e3cb8ac57",
+        "f5f75fec-5d90-4fd7-a9b3-94e715970c65"
+      ],
+      "settings": {
+        "bg": "#f9f9f9",
+        "align_text": "center",
+        "narrow_column": false,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "16573518799e179780",
+    "1657351769511d8632",
+    "165735276592636065",
+    "165824850935159938",
+    "16573528288bc0733d",
+    "1657600756854abaa7"
+  ]
+}
