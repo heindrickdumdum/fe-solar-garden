@@ -83,7 +83,11 @@
             {%- if section.settings.rows > 1 -%}
               <div class="grid__item text-center{% if section.settings.mobile_scrollable %} small--hide{% endif %}">
                 <br>
+                {% if section.settings.view_all_link %}
+                <a href="{{ section.settings.view_all_link }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
+                {% else %}
                 <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
+                {% endif %}
               </div>
             {%- endif -%}
 
@@ -144,6 +148,11 @@
         "min": 1,
         "max": 5,
         "step": 1
+      },
+      {
+        "id": "view_all_link",
+        "type": "url",
+        "label": "View All Link"
       },
       {
         "type": "checkbox",

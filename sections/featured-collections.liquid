@@ -1,6 +1,19 @@
+<style>
+  .{{ section.id}}-section .item-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 24px;
+  }
+</style>
+
+
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="page-width">
+<div class="{{ section.id}}-section page-width">
   {%- if section.settings.title != blank -%}
     <div class="section-header">
       <h2 class="section-header__title">{{ section.settings.title }}</h2>
@@ -86,13 +99,20 @@
       </div>
     {%- endif -%}
 
-    <span
+    {% comment %} <span
       class="collection-item__title collection-item__title--{{ settings.collection_grid_style }} collection-item__title--{{ settings.type_collection_font }} collection-item__title--{{ settings.collection_grid_text_align }}">
       <span>
         {{ title_output }}
       </span>
-    </span>
+    </span> {% endcomment %}
 
+  </a>
+  <a href="{{ block.settings.link }}">
+    <div class="text-center">
+      <span class="item-title">
+        {{ title_output }} {% render 'icon-arrow-right' %}
+      </span>
+    </div>
   </a>
 </div>
 
