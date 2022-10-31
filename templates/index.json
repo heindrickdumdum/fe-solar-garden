@@ -235,6 +235,33 @@
         "space_around": true
       }
     },
+    "744c0e01-e76e-48af-9509-c0326918a2c1": {
+      "type": "faq",
+      "blocks": {
+        "template--15947240112300__744c0e01-e76e-48af-9509-c0326918a2c1-1667225824f5d031bc-0": {
+          "type": "question",
+          "settings": {
+            "title": "Are all your lights weatherproof?",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "template--15947240112300__744c0e01-e76e-48af-9509-c0326918a2c1-1667225824f5d031bc-1": {
+          "type": "question",
+          "settings": {
+            "title": "Why are all your lights solar-powered?",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15947240112300__744c0e01-e76e-48af-9509-c0326918a2c1-1667225824f5d031bc-0",
+        "template--15947240112300__744c0e01-e76e-48af-9509-c0326918a2c1-1667225824f5d031bc-1"
+      ],
+      "settings": {
+        "bg": "",
+        "title": "Have Questions?"
+      }
+    },
     "1657600756854abaa7": {
       "type": "banner",
       "blocks": {
@@ -270,6 +297,7 @@
     "165735276592636065",
     "165824850935159938",
     "16573528288bc0733d",
+    "744c0e01-e76e-48af-9509-c0326918a2c1",
     "1657600756854abaa7"
   ]
 }
