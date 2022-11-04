@@ -242,20 +242,45 @@
           "type": "question",
           "settings": {
             "title": "Are all your lights weatherproof?",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "text": "<p>Yes, every light we sell is either IP44 or IP65 weather resistant, meaning rain, hail or shine, they'll be shining bright every day.<br\/><br\/>If your lights ever stop working, just remember they are backed by our lifetime replacement guarantee. Simply reach out to our support team <a href=\"\/pages\/contact-us\" target=\"_blank\" title=\"Contact Us\">here<\/a> if you ever have any issues with your lights.<\/p>"
           }
         },
         "template--15947240112300__744c0e01-e76e-48af-9509-c0326918a2c1-1667225824f5d031bc-1": {
           "type": "question",
           "settings": {
             "title": "Why are all your lights solar-powered?",
+            "text": "<p>We believe strongly in the power of renewable energy, and reducing our impact on the world. Every product we sell is powered by the sun's rays to help you reduce your monthly power bill and help reduce the amount of electricity you use from non-renewable sources.<br\/><br\/>Plus, every delivery is carbon neutral and we support various organisations helping to combat rapid climate change. You can read more about them <a href=\"\/pages\/our-mission\" target=\"_blank\" title=\"Our Mission\">here<\/a>.<\/p>"
+          }
+        },
+        "04478dfb-36a9-427f-89f2-c5f9a746fbca": {
+          "type": "question",
+          "settings": {
+            "title": "What is your lifetime guarantee?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "468defa0-a962-41d0-8679-fcd16c3a64aa": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer free delivery on all orders?",
+            "text": "<p>All orders include FREE and fast delivery Australia-wide, no matter how many lights you order. <\/p>"
+          }
+        },
+        "671ea2e7-90f9-45b9-b01d-23931a56fdd7": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"\/pages\/faqs\" title=\"FAQs\">Read More<\/a> &gt;<\/p>",
+            "align_text": "center"
           }
         }
       },
       "block_order": [
         "template--15947240112300__744c0e01-e76e-48af-9509-c0326918a2c1-1667225824f5d031bc-0",
-        "template--15947240112300__744c0e01-e76e-48af-9509-c0326918a2c1-1667225824f5d031bc-1"
+        "template--15947240112300__744c0e01-e76e-48af-9509-c0326918a2c1-1667225824f5d031bc-1",
+        "04478dfb-36a9-427f-89f2-c5f9a746fbca",
+        "468defa0-a962-41d0-8679-fcd16c3a64aa",
+        "671ea2e7-90f9-45b9-b01d-23931a56fdd7"
       ],
       "settings": {
         "bg": "",
