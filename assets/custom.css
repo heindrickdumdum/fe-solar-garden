@@ -122,6 +122,18 @@ button.footer__newsletter-btn.btn {
     align-items: center;
 }
 
+.gap-6 {
+  gap: 6px
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .tct p {
     margin: 0px;
     font-size: 20px;
@@ -1470,3 +1482,14 @@ a.popup-youtube svg {
 }
 
 }
+
+.load-more_wrap{
+  /* margin-top: 60px;  */
+  text-align: center;
+ }
+
+ .load-more_wrap img{
+  max-width: 25px;
+ }
+
+ .load-more_wrap span { font-size: 20px; }

@@ -79,7 +79,7 @@
       {%- endif -%}
 
       <div
-        class="grid grid--uniform{% if block.settings.mobile_flush_grid %} small--grid--flush{% endif %}"{% unless block.settings.enable_collection_count %} data-scroll-to{% endunless %}>
+        class="grid--view-items grid grid--uniform{% if block.settings.mobile_flush_grid %} small--grid--flush{% endif %}"{% unless block.settings.enable_collection_count %} data-scroll-to{% endunless %}>
         {%- liquid
           assign grid_item_width = 'small--one-half medium-up--one-third'
 
@@ -109,7 +109,20 @@
       </div>
 
       {%- if paginate.pages > 1 -%}
-        {%- render 'pagination', paginate: paginate -%}
+        <input type="hidden" value="{{ paginate.next.url }}" data-next-link>
+        <input type="hidden" value="{{ paginate.pages }}" data-all-pages>
+        <input type="hidden" value="{{ paginate.current_page }}" data-this-page>
+        <input type="hidden" value="{{ collection.url }}" data-coll-url>
+        <div class="load-more_wrap">
+        <button class="js-load-more">
+      <span load-more-text class="flx gap-6"><span class="underline bold">Load More</span> {% render 'icon-arrow-right-svg' %}</span>
+        <span class="hide" loader>
+          Loading...
+        {% comment %} <img src="{{ 'loader.gif' | asset_url }}"/> {% endcomment %}
+        </span>
+        </button>
+        </div>
+        {% comment %} {%- render 'pagination', paginate: paginate -%} {% endcomment %}
       {%- endif -%}
 
       {%- if settings.quick_shop_enable -%}
