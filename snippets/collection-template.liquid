@@ -96,10 +96,12 @@
         -%}
 
         {%- for product in collection.products -%}
-          {%- render 'product-grid-item',
+          {% comment %} <pre>{{ forloop.index }}</pre> {% endcomment %}
+          {%- render 'product-grid-item-review',
             product: product,
             grid_item_width: grid_item_width,
-            per_row: per_row -%}
+            per_row: per_row
+            index_item: forloop.index -%}
         {%- else -%}
           <div class="grid__item">
             <p>{{ 'collections.general.no_matches' | t }}</p>

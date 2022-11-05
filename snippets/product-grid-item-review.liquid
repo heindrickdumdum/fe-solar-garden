@@ -30,6 +30,7 @@
   endif
 -%}
 {% unless product.handle contains 'navidium' %}
+
 <div class="grid__item grid-product {{ grid_item_width }}{% if settings.quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}" data-handle="{{ product.handle }}">
   
   <div class="grid-product__content" >
@@ -261,4 +262,26 @@
     <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
   {%- endif -%}
 </div>
+
+{% if index_item == 2 %}
+  <div class="grid__item grid-product {{ grid_item_width }}{% if settings.quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}" data-handle="{{ product.handle }}">
+    <div class="grid-product__content" >
+      <img src="{{ 'review-1.png' | asset_url }}" alt="review">
+    </div>
+  </div>
+{% endif %}
+{% if index_item == 5 %}
+  <div class="grid__item grid-product {{ grid_item_width }}{% if settings.quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}" data-handle="{{ product.handle }}">
+    <div class="grid-product__content" >
+      <img src="{{ 'review-2.png' | asset_url }}" alt="review">
+    </div>
+  </div>
+{% endif %}
+{% if index_item == 9 %}
+  <div class="grid__item grid-product {{ grid_item_width }}{% if settings.quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}" data-handle="{{ product.handle }}">
+    <div class="grid-product__content" >
+      <img src="{{ 'review-1.png' | asset_url }}" alt="review">
+    </div>
+  </div>
+{% endif %}
 {% endunless %}
