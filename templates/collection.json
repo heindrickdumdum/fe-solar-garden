@@ -1,1 +1,40 @@
-{"sections":{"collection-header":{"type":"collection-header","settings":{"enable":true,"collection_image_enable":false,"parallax":false}},"main-collection":{"type":"main-collection","blocks":{"product_grid":{"type":"product_grid","settings":{"enable_collection_count":false,"per_row":4,"rows_per_page":7,"mobile_flush_grid":false}}},"block_order":["product_grid"],"settings":{"enable_sidebar":false,"collapsed":false,"filter_style":"sidebar","enable_color_swatches":false,"enable_sort":false}}},"order":["collection-header","main-collection"]}
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": false,
+        "parallax": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": false,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "main-collection"
+  ]
+}
