@@ -293,7 +293,15 @@
         "16067607-f9c3-40a3-8e03-ca8e3cb8ac57": {
           "type": "heading",
           "settings": {
-            "title": "Add that wow factor to your home today!"
+            "title": "Our Mission"
+          }
+        },
+        "23999584-3bf1-42c9-b28f-bb911d7b62a5": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>Our story began with a vision to save people money and to save our planet with solar-powered products. Now we’ve helped over 15,000 Aussies save on the power bill and add that wow factor to their home.<\/p>",
+            "align_text": "center"
           }
         },
         "f5f75fec-5d90-4fd7-a9b3-94e715970c65": {
@@ -313,6 +321,7 @@
       },
       "block_order": [
         "16067607-f9c3-40a3-8e03-ca8e3cb8ac57",
+        "23999584-3bf1-42c9-b28f-bb911d7b62a5",
         "f5f75fec-5d90-4fd7-a9b3-94e715970c65",
         "1cbd7641-48f3-48cf-b8a6-f3b20ebed382"
       ],
