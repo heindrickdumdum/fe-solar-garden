@@ -301,11 +301,20 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SG_-_UGC_V4_71b45b6a-d576-4313-bec0-c1a66d64d35a.jpg"
           }
+        },
+        "1cbd7641-48f3-48cf-b8a6-f3b20ebed382": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"\/pages\/our-mission\" title=\"Our Mission\"><strong>Read More<\/strong><\/a><strong> &gt;<\/strong><\/p>",
+            "align_text": "center"
+          }
         }
       },
       "block_order": [
         "16067607-f9c3-40a3-8e03-ca8e3cb8ac57",
-        "f5f75fec-5d90-4fd7-a9b3-94e715970c65"
+        "f5f75fec-5d90-4fd7-a9b3-94e715970c65",
+        "1cbd7641-48f3-48cf-b8a6-f3b20ebed382"
       ],
       "settings": {
         "bg": "#f9f9f9",
