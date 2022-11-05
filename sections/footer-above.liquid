@@ -1,40 +1,56 @@
  <style>
-   #{{section.id}}-footer_above .tct.rte a span { display: flex; gap: 10px; }
-   #{{section.id}}-footer_above .tct.rte a svg { fill: #fff; }
-   #{{section.id}}-footer_above .flx { gap: 50px; }
+   #{{section.id}}-footer_above .tct.rte svg { fill: #fff; }
+   #{{section.id}}-footer_above .footer_above-inner { gap: 50px; }
    #{{section.id}}-footer_above h3 { font-size: 1.8rem; margin-bottom: 10px; font-weight: 900;}
    #{{section.id}}-footer_above p { margin-bottom: 10px; font-size: 1.1rem; }
    #{{section.id}}-footer_above a { font-weight: bold; font-size: 1.1rem; }
-
+   #{{section.id}}-footer_above .learn-more-wrapper { display: flex; align-items: center;}
+   #{{section.id}}-footer_above .mobile-view { display: none; }
+   #{{section.id}}-footer_above .ic { gap: 20px; }
 
    @media screen and (max-width: 769px) {
-    #{{section.id}}-footer_above .ic { margin: 0; margin-bottom: 20px; }
+    #{{section.id}}-footer_above .mobile-view { display: block; }
+    #{{section.id}}-footer_above .desktop-view { display: none; }
+    #{{section.id}}-footer_above .ic { margin: 0; margin-top: 30px; margin-bottom: 30px; }
     #{{section.id}}-footer_above h3,
     #{{section.id}}-footer_above .tct.rte { text-align: center; }
+    #{{section.id}}-footer_above .learn-more-wrapper { justify-content: center; }
   }
  </style>
 
  <div id="{{section.id}}-footer_above" class="footer_above">
    <div class="page-width page-width--narrow">
 
-     <div class="flx">
-       <div class="ic">
+     <div class="flx footer_above-inner">
+      <div class="desktop-view">
+        <div class="ic">
 
-         {% render 'footer-badge-1' %}
-         {% render 'footer-badge-2' %}
-         {% render 'footer-badge-3' %}
+          {% render 'footer-badge-1' %}
+          {% render 'footer-badge-2' %}
+          {% render 'footer-badge-3' %}
 
 
-       </div>
+        </div>
+      </div>
 
        <div class="tct rte">
           <h3>Making The Planet Greener With Every Sale</h3>
           <p>
             Every delivery is carbon neutral, and a portion of every purchase goes to planting trees in bushfire damaged Australia with One Tree Planted.
           </p>
-          <a href="https://solagarden.com.au/pages/our-mission">
-            <span>Learn more {%- render 'icon-arrow-right-svg' -%}</span>
-          </a>
+
+          <div class="mobile-view">
+            <div class="ic">
+              {% render 'footer-badge-1' %}
+              {% render 'footer-badge-2' %}
+              {% render 'footer-badge-3' %}
+            </div>
+          </div>
+
+          <div class="learn-more-wrapper gap-6">
+            <a href="https://solagarden.com.au/pages/our-mission">Learn more</a>
+            {%- render 'icon-arrow-right-svg' -%}
+          </div>
        </div>
      </div>
 
