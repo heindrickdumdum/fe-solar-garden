@@ -31,10 +31,78 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
+    },
+    "bd3afe5c-db5a-45b2-8d80-14186d15970b": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15947239227564__bd3afe5c-db5a-45b2-8d80-14186d15970b-1667661033cc1c5920-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design__44_-removebg-preview.png",
+            "image_width": 100,
+            "title": "Solar powered",
+            "text": "<p>Save money on electricity bills every month.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15947239227564__bd3afe5c-db5a-45b2-8d80-14186d15970b-1667661033cc1c5920-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design__46_-removebg-preview.png",
+            "image_width": 100,
+            "title": "Weatherproof",
+            "text": "<p>Completely weatherproof and built to last.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15947239227564__bd3afe5c-db5a-45b2-8d80-14186d15970b-1667661033cc1c5920-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design__47_-removebg-preview.png",
+            "image_width": 100,
+            "title": "Life guarantee",
+            "text": "<p>Lifetime replacement guarantee if they break.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "b017e738-e9b8-47a7-9af0-1dce3b9d3d46": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design__52_-removebg-preview.png",
+            "image_width": 100,
+            "title": "Sustainability",
+            "text": "<p>1% of sales supports sustainability projects.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15947239227564__bd3afe5c-db5a-45b2-8d80-14186d15970b-1667661033cc1c5920-0",
+        "template--15947239227564__bd3afe5c-db5a-45b2-8d80-14186d15970b-1667661033cc1c5920-1",
+        "template--15947239227564__bd3afe5c-db5a-45b2-8d80-14186d15970b-1667661033cc1c5920-2",
+        "b017e738-e9b8-47a7-9af0-1dce3b9d3d46"
+      ],
+      "settings": {
+        "bg": "#f9f9f9",
+        "title": "Why SolaGarden?",
+        "button_label": "Shop All Products",
+        "button_link": "shopify:\/\/collections",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
     "collection-header",
-    "main-collection"
+    "main-collection",
+    "bd3afe5c-db5a-45b2-8d80-14186d15970b"
   ]
 }
