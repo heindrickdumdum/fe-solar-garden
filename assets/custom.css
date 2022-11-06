@@ -2,6 +2,15 @@
     padding: 0px 20px;
 }
 
+.hero-ratings-wrapper {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.pdp-ratings-wrapper  .loox-rating span,
+.hero-ratings-wrapper .loox-rating span { display: none;}
+
 @media only screen and (min-width: 769px){
 .index-section {
     margin: 70px 0;

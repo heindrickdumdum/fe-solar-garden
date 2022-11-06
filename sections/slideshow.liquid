@@ -248,6 +248,15 @@
                                 </a>
                               {%- endif -%}
                             </div>
+
+                            <div class="hero-ratings-wrapper">
+                              {% if shop.metafields.loox["global_stats"] %}
+                                {% assign looxstats = shop.metafields.loox["global_stats"] | split: ',' %} 
+                                <div class="loox-rating loox-rating-hp" data-rating="{{ looxstats[0] }}" data-raters="{{ looxstats[1] }}"></div>
+                                <span class="underline">{{looxstats[0]}}/5 - Based on {{ looxstats[1] }} Reviews</span>
+                              {% endif %}
+                            </div>
+                            
                           {%- endif -%}
                         {%- endif -%}
                       </div>
