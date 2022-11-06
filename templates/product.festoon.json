@@ -17,7 +17,7 @@
         "651887fd-46da-4afd-9928-774d67ef6e6b": {
           "type": "custom",
           "settings": {
-            "code": "<a href=\"#looxReviews\">\n                                  <div class=\"loox-rating\" data-id=\"{{ product.id }}\" data-rating=\"{{ product.metafields.loox.avg_rating }}\" data-raters=\"{{ product.metafields.loox.num_reviews }}\"><\/div>\n                                  <span class=\"underline\">{{product.metafields.loox.avg_rating}}\/5 - Based on {{ product.metafields.loox.num_reviews }} Reviews<\/span>\n                                <\/a>"
+            "code": "<a href=\"#looxReviews\">\n                                                            <\/a>"
           }
         },
         "price": {
