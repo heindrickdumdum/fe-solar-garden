@@ -251,7 +251,7 @@ button.btn.vl {
 }
 
 span.grid-product__price--savings {
-    display: block;
+    /* display: block; */
     background: rgba(255, 216, 14, 1);
     color: black;
     font-weight: 900;

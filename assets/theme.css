@@ -10642,6 +10642,13 @@ html[dir=rtl] .product-single__meta .rte{
   color:#C20000;
   color:var(--colorTextSavings);
   white-space:nowrap;
+  white-space: nowrap;
+  background: #FFD80E;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  padding: 6px 15px;
 }
 
 .product__quantity label{
