@@ -1503,4 +1503,13 @@ a.popup-youtube svg {
  /* .variant-input-wrap input:checked ~ label { background-color: #3A692B; } */
  .variant-input-wrap input:checked ~ label::before { background: url('https://cdn.shopify.com/s/files/1/0513/2346/9996/files/check-solid-white_256x256_crop_center.png?v=1667664560'); background-color: #3A692B; background-size: cover; border: 3px solid #3A692B; }
 
- 
+ /*PDP Thumbnail  */
+
+@media only screen and (min-width: 769px) {
+  .product__thumbs--below .product__thumbs--scroller { white-space: normal; }
+  .product__thumbs--below .product__thumb-item {
+    width: 50%;
+    max-width: none !important;
+    margin: 0;
+  }
+}
