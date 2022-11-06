@@ -3,7 +3,7 @@
   {%- render 'breadcrumbs' -%}
 
   <header class="section-header text-center{% if cart.item_count == 0 %} section-header--404{% endif %}">
-    <h1 style="font-weight: 700;" class="section-header__title">Your shopping cart</h1>
+    <h1 style="font-weight: 700;" class="section-header__title">Your Cart ({{cart.item_count}})</h1>
     <div class="rte text-spacing">
       {%- if cart.item_count == 0 -%}
         <p>{{ 'cart.general.empty' | t }}</p>
