@@ -115,7 +115,7 @@
         </div>
       {%- elsif has_dropdown -%}
         <ul class="site-nav__dropdown text-left">
-          {%- for childlink in link.links -%}
+          {% comment %} {%- for childlink in link.links -%}
             {%- liquid
               assign has_sub_dropdown = false
               if childlink.links != blank
@@ -140,20 +140,20 @@
                 </ul>
               {%- endif -%}
             </li>
-          {%- endfor -%}
+          {%- endfor -%} {% endcomment %}
 
-          <div class="flx">
-            <div>
+          <div class="flx custom-mega-menu">
+            <div class="custom-mega-col-1">
               <p>"Easy To Install & Great Quality" - Craig.M</p>
+              {% render 'mega-nav-shipping' %}
               <a href="/collections/our-best-selling-garden-lights" class="btn">
                 Shop Sale Now
               </a>
-              {% render 'mega-nav-shipping' %}
             </div>
-            <div>
+            <div class="custom-mega-col-2">
               {% render 'mega-nav-collection' %}
             </div>
-            <div>
+            <div class="custom-mega-col-3">
               {% render 'mega-nav-product' %}
             </div>
           </div>

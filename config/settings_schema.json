@@ -1115,6 +1115,11 @@
       },
       {
         "type": "text",
+        "id": "shop_desc_1",
+        "label": "Shop Description 1"
+      },
+      {
+        "type": "text",
         "id": "save_badge_1",
         "label": "Save Badge 1"
       },
@@ -1136,6 +1141,11 @@
         "type": "url",
         "id": "shop_label_link_2",
         "label": "Shop Link 2"
+      },
+      {
+        "type": "text",
+        "id": "shop_desc_2",
+        "label": "Shop Description 2"
       },
       {
         "type": "text",
@@ -1163,6 +1173,11 @@
       },
       {
         "type": "text",
+        "id": "shop_desc_3",
+        "label": "Shop Description 3"
+      },
+      {
+        "type": "text",
         "id": "save_badge_3",
         "label": "Save Badge 3"
       },
@@ -1187,7 +1202,12 @@
       },
       {
         "type": "text",
-        "id": "save_badge_",
+        "id": "product_desc",
+        "label": "product Description"
+      },
+      {
+        "type": "text",
+        "id": "product_badge",
         "label": "Product Badge"
       }
     ]
