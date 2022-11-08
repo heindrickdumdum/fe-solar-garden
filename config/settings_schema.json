@@ -1095,28 +1095,100 @@
     "name": "Mega Menu",
     "settings": [
       {
-        "type": "collection",
-        "id": "sale_collection",
-        "label": "Sale collection"
+        "type": "header",
+        "content": "Shop 1"
       },
       {
-        "type": "product",
-        "id": "featured_product",
-        "label": "Product"
+        "type": "image_picker",
+        "id": "shop_image_1",
+        "label": "Shop Image 1"
       },
       {
-        "type": "collection",
-        "id": "bundle_collection",
-        "label": "Bundle collection"
+        "type": "text",
+        "id": "shop_label_1",
+        "label": "Shop Label 1"
+      },
+      {
+        "type": "url",
+        "id": "shop_label_link",
+        "label": "Shop Link 1"
+      },
+      {
+        "type": "text",
+        "id": "save_badge_1",
+        "label": "Save Badge 1"
       },
       {
         "type": "header",
-        "content": "General"
+        "content": "Shop 2"
       },
       {
-        "type": "product",
-        "id": "featured_product_2",
-        "label": "Product"
+        "type": "image_picker",
+        "id": "shop_image_2",
+        "label": "Shop Image 2"
+      },
+      {
+        "type": "text",
+        "id": "shop_label_2",
+        "label": "Shop Label 2"
+      },
+      {
+        "type": "url",
+        "id": "shop_label_link",
+        "label": "Shop Link 2"
+      },
+      {
+        "type": "text",
+        "id": "save_badge_2",
+        "label": "Save Badge 2"
+      },
+      {
+        "type": "header",
+        "content": "Shop 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "shop_image_2",
+        "label": "Shop Image 3"
+      },
+      {
+        "type": "text",
+        "id": "shop_label_2",
+        "label": "Shop Label 3"
+      },
+      {
+        "type": "url",
+        "id": "shop_label_link",
+        "label": "Shop Link 3"
+      },
+      {
+        "type": "text",
+        "id": "save_badge_3",
+        "label": "Save Badge 3"
+      },
+      {
+        "type": "header",
+        "content": "Featured Product"
+      },
+      {
+        "type": "image_picker",
+        "id": "product_image",
+        "label": "Product Image"
+      },
+      {
+        "type": "text",
+        "id": "product_label",
+        "label": "Product Label"
+      },
+      {
+        "type": "url",
+        "id": "product_label_link",
+        "label": "Product Link"
+      },
+      {
+        "type": "text",
+        "id": "save_badge_",
+        "label": "Product Badge"
       }
     ]
   }
