@@ -1585,6 +1585,7 @@ padding-right: 40px;
     width: 200px;
     display: block;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .custom-mega-col-3 .nav-product-item p {

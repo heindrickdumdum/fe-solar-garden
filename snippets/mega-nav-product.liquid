@@ -1,7 +1,7 @@
 <div class="flx nav-featured-product">
   <div class="nav-product-item">
     <a src="{{ settings.shop_label_link_1 }}">
-      <img src="{{ settings.shop_image_1.src | img_url: '200x'}}">
+      <img src="{{ settings.product_image.src | img_url: '200x'}}">
       <p>{{ settings.shop_label_1 }} {%- render 'icon-arrow-right-svg' -%}</p>
       {% if settings.product_desc != blank %}
       <div class="product_desc"><span>{{ settings.product_desc }}</span></div>
