@@ -1110,7 +1110,7 @@
       },
       {
         "type": "url",
-        "id": "shop_label_link",
+        "id": "shop_label_link_1",
         "label": "Shop Link 1"
       },
       {
@@ -1134,7 +1134,7 @@
       },
       {
         "type": "url",
-        "id": "shop_label_link",
+        "id": "shop_label_link_2",
         "label": "Shop Link 2"
       },
       {
@@ -1148,17 +1148,17 @@
       },
       {
         "type": "image_picker",
-        "id": "shop_image_2",
+        "id": "shop_image_3",
         "label": "Shop Image 3"
       },
       {
         "type": "text",
-        "id": "shop_label_2",
+        "id": "shop_label_3",
         "label": "Shop Label 3"
       },
       {
         "type": "url",
-        "id": "shop_label_link",
+        "id": "shop_label_link_3",
         "label": "Shop Link 3"
       },
       {
