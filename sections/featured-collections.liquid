@@ -84,7 +84,7 @@
 <div class="grid__item {{ grid_item_width }}" id="vl-{{forloop.index}}">
   <a href="{{ block.settings.link }}" class="collection-item collection-item--{{ settings.collection_grid_style }}" data-aos="row-of-{{ per_row }}">
     {%- if block.settings.badge != blank -%}
-    <span class="badge">BEST SELLER</span>
+    <span class="badge">{{ block.settings.badge }}</span>
     {%- endif -%}
     {%- liquid
       if settings.collection_grid_image == 'collection' and collection.image
