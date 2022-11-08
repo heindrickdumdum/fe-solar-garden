@@ -859,5 +859,24 @@
     "type": "collection",
     "id": "sale_collection",
     "label": "Sale collection"
+  },
+  {
+    "type": "product",
+    "id": "featured_product",
+    "label": "Product"
+  },
+  {
+    "type": "collection",
+    "id": "bundle_collection",
+    "label": "Bundle collection"
+  },
+  {
+  "type": "header",
+  "content": "General"
+  },
+  {
+    "type": "product",
+    "id": "featured_product_2",
+    "label": "Product"
   }]
 }]
