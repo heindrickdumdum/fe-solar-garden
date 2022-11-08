@@ -1203,12 +1203,12 @@
       {
         "type": "text",
         "id": "product_desc",
-        "label": "product Description"
+        "label": "Product Description"
       },
       {
         "type": "text",
         "id": "product_price",
-        "label": "product Description"
+        "label": "product Price"
       },
       {
         "type": "text",
