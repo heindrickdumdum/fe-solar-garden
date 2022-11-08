@@ -7,6 +7,10 @@
   margin-top: 20px;
 }
 
+.site-nav__item { 
+  position: initial;
+}
+
 
 .pdp-ratings-wrapper  .loox-rating span,
 .hero-ratings-wrapper .loox-rating span { display: none;}
