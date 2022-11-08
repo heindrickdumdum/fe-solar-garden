@@ -5,7 +5,9 @@
       <p>{{ settings.shop_label_1 }} {%- render 'icon-arrow-right-svg' -%}</p>
       <div class="badge-wrapper">
         <span>{{ settings.shop_desc_1 }}</span>
+        {% if settings.save_badge_1 != blank %}
         <span class="badge">{{ settings.save_badge_1 }}</span>
+        {% endif %}
       </div>
     </a>
   </div>
@@ -14,7 +16,9 @@
     <p>{{ settings.shop_label_2 }} {%- render 'icon-arrow-right-svg' -%}</p>
     <div class="badge-wrapper">
       <span>{{ settings.shop_desc_2 }}</span>
+      {% if settings.save_badge_2 != blank %}
       <span class="badge">{{ settings.save_badge_2 }}</span>
+      {% endif %}
     </div>
   </div>
   <div class="nav-featured-item">
@@ -22,7 +26,9 @@
     <p>{{ settings.shop_label_3 }} {%- render 'icon-arrow-right-svg' -%}</p>
     <div class="badge-wrapper">
       <span>{{ settings.shop_desc_3 }}</span>
+      {% if settings.save_badge_3 != blank %}
       <span class="badge">{{ settings.save_badge_3 }}</span>
+      {% endif %}
     </div>
   </div>
 </div>

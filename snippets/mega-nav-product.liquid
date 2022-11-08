@@ -3,10 +3,14 @@
     <a src="{{ settings.shop_label_link_1 }}">
       <img src="{{ settings.shop_image_1.src | img_url: '200x'}}">
       <p>{{ settings.shop_label_1 }} {%- render 'icon-arrow-right-svg' -%}</p>
-      <p>{{ settings.product_desc }}</p>
+      {% if settings.product_desc != blank %}
+      <div class="product_desc"><span>{{ settings.product_desc }}</span></div>
+      {% endif %}
       <div class="badge-wrapper">
-        <span>{{ settings.product_desc }}</span>
+        <span>{{ settings.product_price }}</span>
+        {% if settings.save_badge_1 != blank %}
         <span class="badge">{{ settings.save_badge_1 }}</span>
+        {% endif %}
       </div>
     </a>
   </div>

@@ -1529,9 +1529,16 @@ a.popup-youtube svg {
 
 
 /* Mega Menu */
-.custom-mega-menu {justify-content: center;align-items: flex-start; gap: 40px; padding: 50px 20px; }
+.custom-mega-menu .badge-wrapper .badge {
+  background-color: #ffd80f;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+
+.custom-mega-menu {justify-content: center;align-items: center; gap: 40px; padding: 50px 20px; }
 .custom-mega-menu .custom-mega-col-1 {text-align: center;max-width: 450px;}
-.custom-mega-menu .custom-mega-col-1 p {font-size: 24px;font-weight: bold;max-width: 360px;text-align: center;margin: auto;margin-bottom: 20px;}
+.custom-mega-menu .custom-mega-col-1 p {font-size: 24px;font-weight: bold;max-width: 360px;text-align: center;margin: auto;margin-bottom: 15px;}
 .custom-mega-menu .custom-mega-col-1 .btn { background-color: #ffd80f; }
 .custom-mega-menu .custom-mega-col-1 .grid.vl {margin: 0;align-items: center; background-color: #f2f2f2; border-radius: 20px;padding: 20px; margin-bottom: 20px; }
 .custom-mega-menu .custom-mega-col-1 .grid.vl  .grid__item { padding: 0; }
@@ -1564,6 +1571,7 @@ padding-right: 40px;
     font-weight: bold;
     gap: 5px;
     text-decoration: underline;
+    margin-bottom: 15px;
 }
 
 
@@ -1587,4 +1595,10 @@ padding-right: 40px;
     font-weight: bold;
     gap: 5px;
     text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.custom-mega-col-3 .nav-product-item .product_desc {
+  margin-bottom: 15px;
+  font-size: 12px;
 }
