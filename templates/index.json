@@ -41,6 +41,7 @@
         "16573518782e755155-0": {
           "type": "collection",
           "settings": {
+            "badge": "Best Seller",
             "collection": "our-best-selling-garden-lights",
             "link": "https:\/\/solagarden.com.au\/products\/festoon-lights",
             "image": "shopify:\/\/shop_images\/SolaGardenLights_Main_2.png",
@@ -51,6 +52,7 @@
         "16573518782e755155-1": {
           "type": "collection",
           "settings": {
+            "badge": "",
             "collection": "our-best-selling-garden-lights",
             "link": "https:\/\/solagarden.com.au\/products\/waterproof-led-light-pack",
             "image": "shopify:\/\/shop_images\/SolaGardenLights_Main_4.png",
@@ -61,6 +63,7 @@
         "16573518782e755155-2": {
           "type": "collection",
           "settings": {
+            "badge": "",
             "collection": "new-bundles",
             "link": "shopify:\/\/collections\/new-bundles",
             "image": "shopify:\/\/shop_images\/SolaGardenLights_Main_3.png",
