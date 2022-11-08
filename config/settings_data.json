@@ -74,6 +74,10 @@
     "favicon": "shopify:\/\/shop_images\/Favicon.png",
     "search_enable": false,
     "disable_animations": true,
+    "sale_collection": "our-best-selling-garden-lights",
+    "featured_product": "festoon-lights",
+    "bundle_collection": "new-bundles",
+    "featured_product_2": "festoon-lights",
     "checkout_logo_image": "shopify:\/\/shop_images\/Logo___Payment_icons_V3.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
@@ -193,6 +197,15 @@
       "footer-above": {
         "type": "footer-above",
         "settings": {
+        }
+      },
+      "featured-collections-mega-menu": {
+        "type": "featured-collections-mega-menu",
+        "settings": {
+          "title": "Collection list",
+          "divider": false,
+          "per_row": 4,
+          "enable_gutter": true
         }
       }
     },
