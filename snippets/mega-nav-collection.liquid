@@ -4,7 +4,8 @@
       <img src="{{ settings.shop_image_1.src | img_url: '200x'}}">
       <p>{{ settings.shop_label_1 }} {%- render 'icon-arrow-right-svg' -%}</p>
       <div class="badge-wrapper">
-        <span>{{ settings.shop_desc_1 }}</span><span>{{ settings.save_badge_1 }}</span>
+        <span>{{ settings.shop_desc_1 }}</span>
+        <span class="badge">{{ settings.save_badge_1 }}</span>
       </div>
     </a>
   </div>
@@ -12,14 +13,16 @@
     <img src="{{ settings.shop_image_2.src | img_url: '200x'}}">
     <p>{{ settings.shop_label_2 }} {%- render 'icon-arrow-right-svg' -%}</p>
     <div class="badge-wrapper">
-      <span>{{ settings.shop_desc_2 }}</span><span>{{ settings.save_badge_2 }}</span>
+      <span>{{ settings.shop_desc_2 }}</span>
+      <span class="badge">{{ settings.save_badge_2 }}</span>
     </div>
   </div>
   <div class="nav-featured-item">
     <img src="{{ settings.shop_image_3.src | img_url: '200x'}}">
     <p>{{ settings.shop_label_3 }} {%- render 'icon-arrow-right-svg' -%}</p>
     <div class="badge-wrapper">
-      <span>{{ settings.shop_desc_3 }}</span><span>{{ settings.save_badge_3 }}</span>
+      <span>{{ settings.shop_desc_3 }}</span>
+      <span class="badge">{{ settings.save_badge_3 }}</span>
     </div>
   </div>
 </div>

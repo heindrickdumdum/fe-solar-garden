@@ -1207,6 +1207,11 @@
       },
       {
         "type": "text",
+        "id": "product_price",
+        "label": "product Description"
+      },
+      {
+        "type": "text",
         "id": "product_badge",
         "label": "Product Badge"
       }
