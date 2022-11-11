@@ -106,7 +106,7 @@ button.btn.cart__checkout {
 .cart__item-sub.cart__item-row.rb {
     /* flex-flow: nowrap; */
     flex: auto !important;
-    justify-content: end;
+    /* justify-content: end; */
 }
 .sbb {
     margin-right: 85px !important;

@@ -72,10 +72,7 @@ Total
             {% endif %}
           </div>
 
-          <div class="cart__item-sub cart__item-row rb">
-            <div class="sbb" style="    font-weight: 600;">Your Total</div>
-            <div class"suub" data-subtotal>{{ cart.total_price | money }}</div>
-          </div>
+          
 
           {% if settings.cart_terms_conditions_enable %}
             <div class="cart__item-row cart__terms">
@@ -94,23 +91,29 @@ Total
           <div class="cart__shipping rte">Congrats! You qualify for FREE Aussie delivery.
           </div>
           <div class='nvd-mini'></div>
+          <div class="cart__item-sub cart__item-row rb">
+            <div class="sbb" style="    font-weight: 600;">Subtotal</div>
+            <div class="suub nvd-subtotal" data-subtotal>{{ cart.total_price | money }}</div>
+          </div>
           <div class="cart__item-row cart__checkout-wrapper">
             
-            <div class="st">
-            <button type="submit" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" class="btn cart__checkout">
-              {{ 'cart.general.checkout' | t }}
+            <div class="st text-center">
+            <button type="submit" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" class="btn cart__checkout w-full max-w-none">
+              {{ 'cart.general.checkout' | t }} - <span class="nvd-subtotal">{{ cart.total_price | money }}</span>
             </button>
+            
             </div>
             
+            {% if additional_checkout_buttons and settings.cart_additional_buttons %}
+              <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
+            {% endif %}
  
           </div>
     </div></div>
 
-           {% if additional_checkout_buttons and settings.cart_additional_buttons %}
-              <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
-            {% endif %}
+           
           <div class="cart__item-row text-center">
-            
+            <p class="flx items-center justify-center"><img style="width: 30px;" src="{{ 'icon-guarantee-check.png' | asset_url }}" alt="100 Day Risk Free Trial"> 100 Day Risk Free Trial</p>
           </div>
         </div>
       </div>

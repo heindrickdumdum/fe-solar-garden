@@ -176,7 +176,8 @@ div#CollectionAjaxContent {
   
       <script>
 $(function() {
-    $('.popup-youtube, .popup-vimeo').magnificPopup({
+    try {
+      $('.popup-youtube, .popup-vimeo').magnificPopup({
         disableOn: 700,
         type: 'iframe',
         mainClass: 'mfp-fade',
@@ -184,6 +185,9 @@ $(function() {
         preloader: false,
         fixedContentPos: false
     });
+    } catch (err){
+      console.log(err)
+    }
 });
 </script>
 
