@@ -7,6 +7,18 @@
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 768px){
+  .hero-ratings-wrapper {
+    justify-content: center;
+  }
+
+  .hero__image-wrapper { position: relative; }
+  .slideshow-wrapper > div { height: auto; padding: 0; }
+  .hero--mobile--auto[data-mobile-natural=true] { position: relative; background-color: #fff; }
+  .hero__text-wrap { color: #000; }
+  .hero__slide-link { position: relative; }
+}
+
 .site-nav__item { 
   position: initial;
 }
