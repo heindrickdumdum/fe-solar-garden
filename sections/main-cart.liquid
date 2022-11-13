@@ -4,9 +4,9 @@
 
   <header class="section-header text-center{% if cart.item_count == 0 %} section-header--404{% endif %}">
     {%- if cart.item_count == 0 -%}
-    <h1 style="font-weight: 700;" class="section-header__title">Your Cart Is Empty</h1>
+    <h1 style="font-weight: 700;" class="section-header__title text-center">Your Cart Is Empty</h1>
     {%- else -%}
-    <h1 style="font-weight: 700;" class="section-header__title">Your Cart ({{cart.item_count}})</h1>
+    <h1 style="font-weight: 700;" class="section-header__title text-center">Your Cart ({{cart.item_count}})</h1>
     {%- endif -%}
     <div class="rte text-spacing">
       {%- if cart.item_count == 0 -%}
