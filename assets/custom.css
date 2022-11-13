@@ -18,6 +18,9 @@
   .hero__text-wrap { color: #000; }
   .hero__slide-link { position: relative; }
   .hero__text-wrap .page-width { padding: 0; }
+
+  .nav-shipping-mobile { display: block !important; }
+  .nav-shipping-mobile .shipping-nav { border-radius: 0; }
 }
 
 .site-nav__item { 
