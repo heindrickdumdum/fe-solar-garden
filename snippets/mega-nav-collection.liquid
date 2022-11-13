@@ -1,6 +1,6 @@
 <div class="flx nav-featured-items">
   <div class="nav-featured-item">
-    <a src="{{ settings.shop_label_link_1 }}">
+    <a href="{{ settings.shop_label_link_1 }}">
       <img src="{{ settings.shop_image_1.src | img_url: '200x'}}">
       <p>{{ settings.shop_label_1 }} {%- render 'icon-arrow-right-svg' -%}</p>
       <div class="badge-wrapper">
@@ -12,23 +12,27 @@
     </a>
   </div>
   <div class="nav-featured-item">
-    <img src="{{ settings.shop_image_2.src | img_url: '200x'}}">
-    <p>{{ settings.shop_label_2 }} {%- render 'icon-arrow-right-svg' -%}</p>
-    <div class="badge-wrapper">
-      <span>{{ settings.shop_desc_2 }}</span>
-      {% if settings.save_badge_2 != blank %}
-      <span class="badge">{{ settings.save_badge_2 }}</span>
-      {% endif %}
-    </div>
+    <a href="{{ settings.shop_label_link_2 }}">
+      <img src="{{ settings.shop_image_2.src | img_url: '200x'}}">
+      <p>{{ settings.shop_label_2 }} {%- render 'icon-arrow-right-svg' -%}</p>
+      <div class="badge-wrapper">
+        <span>{{ settings.shop_desc_2 }}</span>
+        {% if settings.save_badge_2 != blank %}
+        <span class="badge">{{ settings.save_badge_2 }}</span>
+        {% endif %}
+      </div>
+    </a>
   </div>
   <div class="nav-featured-item">
-    <img src="{{ settings.shop_image_3.src | img_url: '200x'}}">
-    <p>{{ settings.shop_label_3 }} {%- render 'icon-arrow-right-svg' -%}</p>
-    <div class="badge-wrapper">
-      <span>{{ settings.shop_desc_3 }}</span>
-      {% if settings.save_badge_3 != blank %}
-      <span class="badge">{{ settings.save_badge_3 }}</span>
-      {% endif %}
-    </div>
+    <a href="{{ settings.shop_label_link_3 }}">
+      <img src="{{ settings.shop_image_3.src | img_url: '200x'}}">
+      <p>{{ settings.shop_label_3 }} {%- render 'icon-arrow-right-svg' -%}</p>
+      <div class="badge-wrapper">
+        <span>{{ settings.shop_desc_3 }}</span>
+        {% if settings.save_badge_3 != blank %}
+        <span class="badge">{{ settings.save_badge_3 }}</span>
+        {% endif %}
+      </div>
+    </a>
   </div>
 </div>

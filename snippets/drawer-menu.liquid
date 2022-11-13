@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-    <div class="drawer__scrollable">
+    {% comment %} <div class="drawer__scrollable">
       <ul class="mobile-nav{% if settings.type_navigation_style == 'heading' %} mobile-nav--heading-style{% endif %}" role="navigation" aria-label="Primary">
         {%- for link in main_menu.links -%}
           {%- assign animation_row = animation_row | plus: 1 -%}
@@ -166,6 +166,29 @@
         {%- endif -%}
       </ul>
 
+    </div> {% endcomment %}
+    <div class="drawer-custom-content">
+      <h3>Shop</h3>
+      <div class="custom-mega-col-1">
+        {% render 'mega-nav-collection' %}
+      </div>
+      <div class="drawer-nav-pages">
+        <a href="/pages/faqs">FAQ</a>
+        <a href="">Reviews</a>
+        <a href="/pages/contact-us">Contact Us</a>
+      </div>
+      <div class="drawer-shop-now">
+        <a class="festoon-link" href="/products/festoon-lights">
+          <img src="https://cdn.shopify.com/s/files/1/0513/2346/9996/files/image_10_1000x.png?v=1668367952">
+        </a>
+
+        <a href="/collections/our-best-selling-garden-lights" class="btn">
+          Shop Sale Now
+        </a>
+        <p class="flx items-center justify-center"><img style="width: 30px;"
+          src="{{ 'icon-guarantee-check.png' | asset_url }}" alt="100 Day Risk Free Trial"> 100 Day Risk Free Trial
+        </p>
+      </div>
     </div>
   </div>
 </div>
