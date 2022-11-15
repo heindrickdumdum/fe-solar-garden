@@ -43,10 +43,10 @@
 
 <style>
 .grid-product__title.grid-product__title--body {
-    height: 55px;
+    {% comment %} height: 55px; {% endcomment %}
 }
 span.grid-product__price--savings {
-    {% comment %} display: none; {% endcomment %}
+    display: none;
 }
 
 @media only screen and (min-width: 769px){
@@ -58,7 +58,7 @@ span.grid-product__price--savings {
 }
 
 .grid-product__title.grid-product__title--body {
-    height: 80px !important;
+    {% comment %} height: 80px !important; {% endcomment %}
 }
 
   }

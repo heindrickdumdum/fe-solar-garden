@@ -156,12 +156,12 @@
           {%- endif -%}
           {%- if product.price_varies -%}
             {%- assign price = product.price_min | money -%}
-            {{ 'products.general.from_text_html' | t: price: price }}
+            {% comment %} {{ 'products.general.from_text_html' | t: price: price }} {% endcomment %}
           {%- else -%}
             {{ product.price  | money }}
           {%- endif -%}
           
-           {%- if on_sale -%}Sale {% endif %}
+           {% comment %} {%- if on_sale -%}Sale {% endif %} {% endcomment %}
           {%- if on_sale -%}
             {%- if settings.product_save_amount -%}
               {%- if settings.product_save_type == 'dollar' -%}

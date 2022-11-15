@@ -287,7 +287,9 @@ button.btn.vl {
 
 
 .grid-product__price--original {
-    color: rgba(124, 131, 137, 1);
+  font-weight: 400;
+  font-size: 22px;
+  color: #B0B0B0;
 }
 
 .grid-product__title {
@@ -822,7 +824,7 @@ a.cur {
     margin-bottom: 20px;
 }
   .grid-product__price--original {
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 }
 .product-block.product-block--price {
@@ -930,8 +932,9 @@ span.grid-product__price--savings {
     font-size: 18px;
 }
   .grid-product__price--original {
-    color: #7c8389;
-    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
 }
   span.grid-product__price--savings {
     margin-left: 0;
