@@ -1,5 +1,20 @@
-<div class="text-center risk-trial-section">
-  <img style="width: 30px;" src="{{ 'icon-guarantee-check.png' | asset_url }}" alt="100 Day Risk Free Trial"> 100 Day Risk Free Trial - Not satisfied? Send them back for a full refund.
+<style>
+.{{ section.id }}.risk-trial-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #396a2b;
+  padding: 38px;
+  font-weight: 900;
+  font-size: 22px;
+  gap: 10px;
+  line-height: 1.2;
+}
+</style>
+
+<div class="{{ section.id }} text-center risk-trial-section">
+  <img style="width: 30px;" src="{{ 'guarantee-check-green.png' | asset_url }}" alt="100 Day Risk Free Trial"> 100 Day Risk Free Trial - Not satisfied? Send them back for a full refund.
 </div>
 
 {% schema %}

@@ -2,6 +2,10 @@
   margin-bottom: 0 !important;
 }
 
+.mt-0 {
+  margin-top: 0 !important;
+}
+
 .rte-setting.text-spacing {
   padding: 0px 20px;
 }
