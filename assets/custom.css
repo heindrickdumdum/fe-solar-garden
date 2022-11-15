@@ -709,7 +709,7 @@ a.cur {
     font-size: 24px;
 }
   .footer__title {
-    font-size: 20px;
+    font-size: 18px;
 }
   input.footer__newsletter-input {
     background: white;
@@ -1396,6 +1396,8 @@ div#shopify-section-template--15705117425836__1657600756854abaa7 {
     margin-bottom: 30px;
 }
   .footer__logo a {
+    max-width: 179px;
+    margin: auto; 
     height: 30px !important;
 }
 .site-footer__linklist a {
@@ -1674,3 +1676,12 @@ padding-right: 40px;
 .drawer-shop-now .festoon-link { display: block; }
 .drawer-shop-now a { margin-bottom: 20px; }
 .drawer-shop-now p { display: flex; gap: 5px; }
+
+.footer__logo { text-align: center; }
+@media screen and (min-width: 769px ) {
+    .page-width-custom-footer { 
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      max-width: 1300px;
+    }
+}
