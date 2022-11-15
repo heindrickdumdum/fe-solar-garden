@@ -1,6 +1,6 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="bg bg--{{section.id}}">
+<div class="bg bg--{{section.id}} {{ section.settings.custom_class }}">
 <div class="page-width">
   {%- if section.settings.title != blank -%}
     <div class="section-header text-{{ section.settings.align_text }}">
@@ -88,8 +88,13 @@
 {% schema %}
   {
     "name": "Text columns with images",
-    "class": "index-section mb-0",
+    "class": "index-section",
     "settings": [
+      {
+        "type": "text",
+        "id": "custom_class",
+        "label": "Custom Class"
+      },
       {
         "type": "color",
         "id": "bg",
