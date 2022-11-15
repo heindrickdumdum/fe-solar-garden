@@ -157,7 +157,7 @@
             "settings": {
               "logo": "shopify:\/\/shop_images\/Logo_85e29725-907b-43df-870a-5908d0ce96fa.png",
               "desktop_logo_height": 37,
-              "container_width": 25
+              "container_width": 20
             }
           },
           "1494301487049": {
@@ -165,7 +165,7 @@
             "settings": {
               "show_footer_title": true,
               "menu": "explore",
-              "container_width": 13
+              "container_width": 14
             }
           },
           "1378de13-19bd-4492-b86d-74e141a97d76": {
@@ -173,7 +173,7 @@
             "settings": {
               "show_footer_title": true,
               "menu": "support",
-              "container_width": 14
+              "container_width": 28
             }
           },
           "1494292487693": {
@@ -182,7 +182,7 @@
               "show_footer_title": true,
               "title": "Enter your email and get up to 15% OFF!",
               "text": "",
-              "container_width": 45
+              "container_width": 34
             }
           }
         },
