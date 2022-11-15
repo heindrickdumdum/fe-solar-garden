@@ -135,6 +135,7 @@
     },
     "sub": {
       "type": "product-full-width",
+      "disabled": true,
       "blocks": {
         "9a3d5b84-f024-436a-933e-74ecddeba936": {
           "type": "description",
@@ -148,71 +149,6 @@
       ],
       "settings": {
         "max_width": true
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "disabled": true,
-      "settings": {
-        "show_product_recommendations": true,
-        "product_recommendations_heading": "You may also like",
-        "related_count": 4
-      }
-    },
-    "recently-viewed": {
-      "type": "recently-viewed",
-      "disabled": true,
-      "settings": {
-        "recent_count": 4
-      }
-    },
-    "165756491783b23255": {
-      "type": "faq",
-      "blocks": {
-        "16575649179854bb2d-0": {
-          "type": "question",
-          "settings": {
-            "title": "<b> How does this Solar Festoon Light Pack work?<\/b>",
-            "text": "<p>Using cutting-edge solar power technology, these festoon lights are powered by the sun's rays, making these the simplest and most eco-friendly lights you can find. All you need to do is hang them up, stake the solar panel into the ground and viola - they'll charge during the day and automatically turn on at night!<\/p>"
-          }
-        },
-        "16575649179854bb2d-1": {
-          "type": "question",
-          "settings": {
-            "title": "<b> How bright are these lights?<\/b>",
-            "text": "<p>This Solar Festoon Light Pack can range from 200-400 lumens in brightness (depending on the charge) making them perfect for lighting your garden, veggie patch, outdoor area or patio. Our latest V2 lights also have a large 4400mAh battery, almost 3X larger than V1 meaning your lights stay bright for longer!<\/p>"
-          }
-        },
-        "b7bc0b0f-866f-466a-9ef8-bef533f90790": {
-          "type": "question",
-          "settings": {
-            "title": "<b> How long are these lights?<\/b>",
-            "text": "<p>The Solar Festoon Light pack is 15 metres long, and includes 15 shatterproof E26 light bulbs. This set is long enough to suspend above an outdoor area, patio, deck or even your front porch too.<\/p>"
-          }
-        },
-        "4a3eba56-f2b7-4e35-a9b0-eca003401926": {
-          "type": "question",
-          "settings": {
-            "title": "<b> Will this Solar Festoon Light Pack be safe in severe weather?<\/b>",
-            "text": "<p>Yes! These lights are IP65 weatherproof, so even in terrible weather, these lights will still work and shine bright. The durable construction ensures safety and quality, so you never have to worry about these lights turning off without warning or breaking.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16575649179854bb2d-0",
-        "16575649179854bb2d-1",
-        "b7bc0b0f-866f-466a-9ef8-bef533f90790",
-        "4a3eba56-f2b7-4e35-a9b0-eca003401926"
-      ],
-      "settings": {
-        "bg": "#f9f9f9",
-        "title": "Have questions?"
-      }
-    },
-    "collection-return": {
-      "type": "collection-return",
-      "disabled": true,
-      "settings": {
       }
     },
     "165756494709c1ad91": {
@@ -282,6 +218,71 @@
         "divider": false
       }
     },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 4
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 4
+      }
+    },
+    "165756491783b23255": {
+      "type": "faq",
+      "blocks": {
+        "16575649179854bb2d-0": {
+          "type": "question",
+          "settings": {
+            "title": "<b> How does this Solar Festoon Light Pack work?<\/b>",
+            "text": "<p>Using cutting-edge solar power technology, these festoon lights are powered by the sun's rays, making these the simplest and most eco-friendly lights you can find. All you need to do is hang them up, stake the solar panel into the ground and viola - they'll charge during the day and automatically turn on at night!<\/p>"
+          }
+        },
+        "16575649179854bb2d-1": {
+          "type": "question",
+          "settings": {
+            "title": "<b> How bright are these lights?<\/b>",
+            "text": "<p>This Solar Festoon Light Pack can range from 200-400 lumens in brightness (depending on the charge) making them perfect for lighting your garden, veggie patch, outdoor area or patio. Our latest V2 lights also have a large 4400mAh battery, almost 3X larger than V1 meaning your lights stay bright for longer!<\/p>"
+          }
+        },
+        "b7bc0b0f-866f-466a-9ef8-bef533f90790": {
+          "type": "question",
+          "settings": {
+            "title": "<b> How long are these lights?<\/b>",
+            "text": "<p>The Solar Festoon Light pack is 15 metres long, and includes 15 shatterproof E26 light bulbs. This set is long enough to suspend above an outdoor area, patio, deck or even your front porch too.<\/p>"
+          }
+        },
+        "4a3eba56-f2b7-4e35-a9b0-eca003401926": {
+          "type": "question",
+          "settings": {
+            "title": "<b> Will this Solar Festoon Light Pack be safe in severe weather?<\/b>",
+            "text": "<p>Yes! These lights are IP65 weatherproof, so even in terrible weather, these lights will still work and shine bright. The durable construction ensures safety and quality, so you never have to worry about these lights turning off without warning or breaking.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16575649179854bb2d-0",
+        "16575649179854bb2d-1",
+        "b7bc0b0f-866f-466a-9ef8-bef533f90790",
+        "4a3eba56-f2b7-4e35-a9b0-eca003401926"
+      ],
+      "settings": {
+        "bg": "#f9f9f9",
+        "title": "Have questions?"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "165825104534ba9472": {
       "type": "review-text",
       "blocks": {
@@ -309,6 +310,7 @@
           "settings": {
             "only_photos": false,
             "aggregated": false,
+            "limit": 20,
             "hide_thumbnails": false,
             "maxwidth": 1440
           }
@@ -331,6 +333,7 @@
           "settings": {
             "only_photos": false,
             "aggregated": false,
+            "limit": 20,
             "hide_thumbnails": false,
             "maxwidth": 1080
           }
@@ -354,11 +357,11 @@
     "zp-product-header-content",
     "main",
     "sub",
+    "165756494709c1ad91",
     "product-recommendations",
     "recently-viewed",
     "165756491783b23255",
     "collection-return",
-    "165756494709c1ad91",
     "165825104534ba9472",
     "165756510658642299",
     "loox-product-reviews-app-section",
