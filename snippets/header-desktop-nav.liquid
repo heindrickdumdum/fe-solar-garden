@@ -29,7 +29,10 @@
       {% if has_dropdown %}aria-haspopup="true"{% endif %}>
 
       <a href="{{ link.url }}" class="{% if link.active %} cur {% endif %} site-nav__link site-nav__link--underline{% if has_dropdown %} site-nav__link--has-dropdown{% endif %}">
-     
+
+
+        {{ link.title }}
+         
         {% if has_dropdown %}
 <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect width="14" height="8" fill="url(#pattern0)"/>
@@ -42,8 +45,6 @@
 </svg>
 
           {% endif %}
-
-        {{ link.title }}
       </a>
       {%- if is_megamenu -%}
         {%- assign previous_column_type = '' -%}
