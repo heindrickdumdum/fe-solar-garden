@@ -2093,6 +2093,7 @@ span.cart-link__bubble.cart-link__bubble--visible {
     padding-right: 0 !important;
     max-width: 1300px;
   }
+  
 }
 
 a.site-nav__link.site-nav__link--underline.site-nav__link--has-dropdown svg {
@@ -2109,3 +2110,4 @@ a.site-nav__link.site-nav__link--underline:hover svg {
 li.site-nav__item.site-nav__expanded-item.site-nav--has-dropdown {
     border-right: 2px solid rgba(101, 101, 101, 1);
 }
+
