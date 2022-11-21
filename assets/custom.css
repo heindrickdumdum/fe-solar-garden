@@ -2094,3 +2094,11 @@ span.cart-link__bubble.cart-link__bubble--visible {
     max-width: 1300px;
   }
 }
+
+a.site-nav__link.site-nav__link--underline.site-nav__link--has-dropdown svg {
+    margin-left: 5px;
+}
+a.site-nav__link.site-nav__link--underline:hover svg {
+    transform: rotate(180deg);
+}
+
