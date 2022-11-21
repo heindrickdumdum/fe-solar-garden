@@ -703,19 +703,19 @@ a.site-nav__link.site-nav__link--underline:hover {
   color: #3a6a2b;
 }
 
-.site-nav__link,
+/* .site-nav__link,
 .site-nav__dropdown-link:not(.site-nav__dropdown-link--top-level) {
   font-family: "Avenir Medium";
 }
-
+ */
 a.cur {
   color: #3a6a2b;
 }
 
-.announcement-bar {
+/* .announcement-bar {
   font-family: "Avenir Medium";
 }
-
+ */
 @media only screen and (min-width: 769px) {
   .announcement-bar {
     font-size: 18px;
@@ -778,7 +778,7 @@ a.cur {
   }
 
   .grid-product__price {
-    font-family: 'Avenir Medium';
+/*     font-family: 'Avenir Medium'; */
     margin-top: 10px;
     font-size: 18px;
     font-weight: 500;
@@ -1153,10 +1153,10 @@ span.grid-product__price--savings {
     margin-top: 10px;
   }
 
-  .mobile-nav__faux-link,
+/*   .mobile-nav__faux-link,
   .mobile-nav__link {
     font-family: "Avenir Medium";
-  }
+  } */
 
   div#vl-2 {
     display: none;
