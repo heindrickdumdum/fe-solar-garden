@@ -39,14 +39,16 @@
   {%- endif -%}
 
   {%- render 'font-face' -%}
+    <link href="//db.onlinewebfonts.com/c/2090551770be22b09600a40b0b4673b7?family=Avenir+Medium" rel="stylesheet" type="text/css"/>
+
+  
   {{ 'theme.css' | asset_url | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
       {{ 'max.scss.css' | asset_url | stylesheet_tag }}
      {{ 'new.css' | asset_url | stylesheet_tag }}
   {%- render 'css-variables' -%}
 
-  <link href="//db.onlinewebfonts.com/c/2090551770be22b09600a40b0b4673b7?family=Avenir+Medium" rel="stylesheet" type="text/css"/>
-  
+
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
 
