@@ -2102,3 +2102,10 @@ a.site-nav__link.site-nav__link--underline:hover svg {
     transform: rotate(180deg);
 }
 
+.site-nav__link--underline {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+li.site-nav__item.site-nav__expanded-item.site-nav--has-dropdown {
+    border-right: 2px solid rgba(101, 101, 101, 1);
+}
