@@ -219,6 +219,9 @@ span.grid-product__price--savings {
     margin-left: 0px;
     display: block;
 }
+.image-wra img {
+    width: 100%;
+}
 @media only screen and (min-width: 769px){
 .hero-natural--template--15947240112300__slideshow {
     height: 0;
