@@ -202,7 +202,9 @@ a.site-nav__link.site-nav__link--underline {
   .nav-product-item svg {
     width: 12px;
 }
-  .custom-mega-menu .badge-wrapper .badge {
+.custom-mega-menu .badge-wrapper .badge {
     padding-left: 19px;
+    font-size: 12px;
+    padding: 5px 14px;
 }
 }
