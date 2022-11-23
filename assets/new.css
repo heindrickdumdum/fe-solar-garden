@@ -182,3 +182,7 @@ li.site-nav__item.site-nav__expanded-item.site-nav--has-dropdown {
    src:url(https://cdn.shopify.com/s/files/1/0513/2346/9996/files/avenir-medium.ttf?v=1669218426);
 
  } 
+
+a.site-nav__link.site-nav__link--underline {
+    font-family: avenir-medium;
+}
