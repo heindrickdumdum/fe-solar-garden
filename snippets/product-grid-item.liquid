@@ -161,7 +161,7 @@
             {{ product.price  | money }}
           {%- endif -%}
           
-         {%- if on_sale -%}Sale {% endif %} 
+        
           {%- if on_sale -%}
             {%- if settings.product_save_amount -%}
               {%- if settings.product_save_type == 'dollar' -%}
