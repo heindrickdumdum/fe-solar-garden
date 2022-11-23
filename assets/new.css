@@ -234,6 +234,11 @@ div#shopify-section-template--15947240112300__1657600756854abaa7 {
 a[title="Our Mission"] {
     font-size: 22px;
 }
+.learn-more-wrapper.gap-6 svg {
+    width: 11px;
+    position: relative;
+    top: 2px;
+}
 @media only screen and (min-width: 769px){
 .hero-natural--template--15947240112300__slideshow {
     height: 0;
