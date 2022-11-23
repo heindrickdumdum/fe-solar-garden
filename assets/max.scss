@@ -8,15 +8,6 @@
 }
 
 
-@media only screen and (max-width: 1250px){
-:root, body {
---page-width: 110rem;
-}
-.page-width {width: calc(
---page-width: calc((100% - 1040px) / 2);
-    padding-left: var(--page-width);
-    padding-right: var(--page-width);
-}
 
 
-}
+
