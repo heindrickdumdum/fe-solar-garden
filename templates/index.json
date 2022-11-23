@@ -7,9 +7,9 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Australia’s highest-rated \nsolar garden lights.",
+            "title": "The Best Energy Saving \nSolar-Powered Lights",
             "title_size": 50,
-            "subheading": "Loved by over 15,000 Aussies.",
+            "subheading": "Save money with our easy to install solar-powered garden lights. 50% off Spring Flash Sale on now!",
             "link": "shopify:\/\/collections\/our-best-selling-garden-lights",
             "link_text": "Shop Sale Now",
             "link_2": "",
@@ -143,6 +143,7 @@
         "21158bc8-34df-478a-abe0-0b92688bbe15"
       ],
       "settings": {
+        "custom_class": "",
         "bg": "#f9f9f9",
         "title": "Why SolaGarden?",
         "button_label": "Shop All Products",
@@ -154,7 +155,7 @@
     "165735276592636065": {
       "type": "featured-collection",
       "settings": {
-        "title": "Shop our best-selling lights",
+        "title": "Choose From Our Best-Selling Lights",
         "home_featured_products": "our-best-selling-garden-lights",
         "per_row": 3,
         "rows": 2,
