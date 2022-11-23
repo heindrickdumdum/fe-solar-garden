@@ -195,4 +195,11 @@ a.site-nav__link.site-nav__link--underline {
     display: inline-block;
     max-width: 600px;
 }
+  .nav-featured-item svg {
+    width: 12px;
+    display: inline-block;
+}
+  .nav-product-item svg {
+    width: 12px;
+}
 }
