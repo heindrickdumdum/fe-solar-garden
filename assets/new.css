@@ -165,3 +165,11 @@ div#shopify-section-template--15705117753516__165825104534ba9472 {
 .announcement-link .announcement-link-text {
     text-decoration: none;
 }
+
+.site-nav--has-dropdown>.site-nav__link {
+    color: black !important;
+}
+
+a.site-nav__link.site-nav__link--underline {
+    color: rgba(101, 101, 101, 1);
+}
