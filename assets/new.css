@@ -189,7 +189,7 @@ a.site-nav__link.site-nav__link--underline {
 .announcement-link {
     font-family: avenir-medium;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1250px){
 .hero__text-wrap .page-width {
     width: 90%;
 }
