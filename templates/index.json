@@ -330,7 +330,7 @@
         "1cbd7641-48f3-48cf-b8a6-f3b20ebed382"
       ],
       "settings": {
-        "bg": "#f9f9f9",
+        "bg": "rgba(0,0,0,0)",
         "align_text": "center",
         "narrow_column": false,
         "divider": false
