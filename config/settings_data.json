@@ -173,16 +173,16 @@
             "settings": {
               "show_footer_title": true,
               "menu": "support",
-              "container_width": 28
+              "container_width": 21
             }
           },
           "1494292487693": {
             "type": "newsletter",
             "settings": {
               "show_footer_title": true,
-              "title": "Enter your email and get up to 15% OFF!",
+              "title": "Enter your email for 10% OFF your first order!",
               "text": "",
-              "container_width": 34
+              "container_width": 40
             }
           }
         },
