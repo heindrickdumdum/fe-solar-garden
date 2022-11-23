@@ -207,4 +207,7 @@ a.site-nav__link.site-nav__link--underline {
     font-size: 12px;
     padding: 5px 14px;
 }
+  .hero__subtitle {
+    margin: 8px 0 14px;
+}
 }
