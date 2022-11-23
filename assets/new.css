@@ -212,3 +212,10 @@ a.site-nav__link.site-nav__link--underline {
     margin: 8px 0 14px;
 }
 }
+
+@media only screen and (min-width: 769px){
+.hero-natural--template--15947240112300__slideshow {
+    height: 0;
+    padding-bottom: 48.652778% !important;
+}
+}
