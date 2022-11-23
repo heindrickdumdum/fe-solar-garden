@@ -173,3 +173,12 @@ div#shopify-section-template--15705117753516__165825104534ba9472 {
 a.site-nav__link.site-nav__link--underline {
     color: rgba(101, 101, 101, 1);
 }
+li.site-nav__item.site-nav__expanded-item.site-nav--has-dropdown {
+    border-right: 1px solid rgba(101,101,101,1);
+}
+
+@font-face {
+   font-family: avenir-medium;
+   src:url(https://cdn.shopify.com/s/files/1/0513/2346/9996/files/avenir-medium.ttf?v=1669218426);
+
+ } 
