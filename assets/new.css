@@ -189,6 +189,11 @@ a.site-nav__link.site-nav__link--underline {
 .announcement-link {
     font-family: avenir-medium;
 }
+@media only screen and (max-width: 1200px){
+.hero__text-wrap .page-width {
+    width: 90%;
+}
+}
 @media only screen and (min-width: 769px){
 .hero__text-shadow {
     position: relative;
