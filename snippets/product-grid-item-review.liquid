@@ -162,7 +162,7 @@
             {{ product.price  | money }}
           {%- endif -%}
           
-           {% comment %} {%- if on_sale -%}Sale {% endif %}
+          {%- if on_sale -%}Sale {% endif %}
           {%- if on_sale -%}
             {%- if settings.product_save_amount -%}
               {%- if settings.product_save_type == 'dollar' -%}
@@ -174,7 +174,7 @@
                 {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
               </span>
             {%- endif -%}
-          {%- endif -%} {% endcomment %}
+          {%- endif -%} 
 
           {%- assign product_variant = product.selected_or_first_available_variant -%}
           {%- if product_variant.unit_price_measurement -%}
