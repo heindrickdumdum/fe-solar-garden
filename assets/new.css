@@ -186,3 +186,6 @@ li.site-nav__item.site-nav__expanded-item.site-nav--has-dropdown {
 a.site-nav__link.site-nav__link--underline {
     font-family: avenir-medium;
 }
+.announcement-link {
+    font-family: avenir-medium;
+}
