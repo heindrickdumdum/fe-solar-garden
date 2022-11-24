@@ -78,6 +78,7 @@
         "16573518782e755155-2"
       ],
       "settings": {
+        "mobile_hide": true,
         "title": "Choose Your Lights",
         "divider": false,
         "per_row": 3,
