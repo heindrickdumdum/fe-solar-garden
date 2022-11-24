@@ -263,4 +263,14 @@ a[title="Our Mission"] {
   .grid-product__title {
     font-size: 20px;
 }
+  .grid-product__price--original {
+    font-size: 16px;
+}
+  .grid-product__price {
+    font-size: 16px;
+}
+  span.grid-product__price--savings {
+    font-size: 14px;
+    padding: 5px;
+}
 }
