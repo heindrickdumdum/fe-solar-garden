@@ -260,4 +260,7 @@ a[title="Our Mission"] {
   .hero__text-content.vertical-center {
     padding-bottom: 0px;
 }
+  .grid-product__title {
+    font-size: 20px;
+}
 }
