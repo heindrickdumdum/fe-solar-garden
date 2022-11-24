@@ -166,6 +166,33 @@
         "divider": false
       }
     },
+    "76cdbd93-72e2-4fcb-9c74-9b3c5fb4604c": {
+      "type": "faq",
+      "blocks": {
+        "template--15947240112300__76cdbd93-72e2-4fcb-9c74-9b3c5fb4604c-1669275209a0b318a2-0": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "template--15947240112300__76cdbd93-72e2-4fcb-9c74-9b3c5fb4604c-1669275209a0b318a2-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15947240112300__76cdbd93-72e2-4fcb-9c74-9b3c5fb4604c-1669275209a0b318a2-0",
+        "template--15947240112300__76cdbd93-72e2-4fcb-9c74-9b3c5fb4604c-1669275209a0b318a2-1"
+      ],
+      "settings": {
+        "bg": "#f9f9f9",
+        "title": "Have Questions?"
+      }
+    },
     "165824850935159938": {
       "type": "review-text",
       "blocks": {
@@ -343,6 +370,7 @@
     "16573518799e179780",
     "1657351769511d8632",
     "165735276592636065",
+    "76cdbd93-72e2-4fcb-9c74-9b3c5fb4604c",
     "165824850935159938",
     "16573528288bc0733d",
     "744c0e01-e76e-48af-9509-c0326918a2c1",
