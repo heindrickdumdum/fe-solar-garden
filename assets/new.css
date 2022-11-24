@@ -247,9 +247,6 @@ a[title="Our Mission"] {
 }
 
 @media only screen and (max-width: 768px){
-.header-item--icons .site-nav {
-    margin-right: 0px;
-}
 .page-full, .page-width {
     padding: 0 17px !Important;
 }
