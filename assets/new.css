@@ -293,4 +293,8 @@ a[title="Our Mission"] {
     padding: 18px;
     margin-bottom: 20px;
 }
+  .brr.medium-up--hide img {
+    margin-right: 7px;
+    /* display: block; */
+}
 }
