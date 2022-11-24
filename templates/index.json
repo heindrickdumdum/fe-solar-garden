@@ -168,6 +168,7 @@
     },
     "76cdbd93-72e2-4fcb-9c74-9b3c5fb4604c": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "template--15947240112300__76cdbd93-72e2-4fcb-9c74-9b3c5fb4604c-1669275209a0b318a2-0": {
           "type": "question",
@@ -316,7 +317,7 @@
         "671ea2e7-90f9-45b9-b01d-23931a56fdd7"
       ],
       "settings": {
-        "custom_class": "small--hide",
+        "custom_class": "",
         "bg": "#f9f9f9",
         "title": "Have Questions?"
       }
