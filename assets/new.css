@@ -250,5 +250,11 @@ a[title="Our Mission"] {
 .page-full, .page-width {
     padding: 0 17px !Important;
 }
-
+.slideshow__slide .hero__link .btn, [data-aos=hero__animation] .hero__link .btn {
+    opacity: 1!important;
+    transition: none!important;
+    margin: 0px;
+    width: 100%;
+    margin-top: 10px;
+}
 }
