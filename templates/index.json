@@ -143,7 +143,7 @@
         "21158bc8-34df-478a-abe0-0b92688bbe15"
       ],
       "settings": {
-        "custom_class": "",
+        "custom_class": "small--hide",
         "bg": "#f9f9f9",
         "title": "Why SolaGarden?",
         "button_label": "Shop All Products",
