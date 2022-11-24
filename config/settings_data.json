@@ -52,7 +52,7 @@
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "natural",
     "product_hover_image": false,
-    "enable_product_reviews": true,
+    "enable_product_reviews": false,
     "collection_grid_style": "overlaid",
     "collection_grid_shape": "square",
     "collection_grid_image": "product",

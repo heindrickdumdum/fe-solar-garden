@@ -278,4 +278,7 @@ a[title="Our Mission"] {
     padding: 18px;
     font-size: 20px;
 }
+  .shopify-product-reviews-badge {
+    display: none;
+}
 }
