@@ -1,7 +1,7 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 
-<div class="bgg bgg--{{section.id}}">
+<div class="bgg bgg--{{section.id}} {{ section.settings.custom_class }}">
 <div class="page-width page-width--narsrow">
 
   {%- if section.settings.title != blank -%}
@@ -99,6 +99,11 @@
     "name": "FAQ",
     "class": "index-section mt-0",
     "settings": [
+            {
+        "type": "text",
+        "id": "custom_class",
+        "label": "Custom Class"
+      },
       {
         "type": "color",
         "id": "bg",
