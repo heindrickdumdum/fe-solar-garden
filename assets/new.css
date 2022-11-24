@@ -257,4 +257,7 @@ a[title="Our Mission"] {
     width: 100%;
     margin-top: 10px;
 }
+  .hero__text-content.vertical-center {
+    padding-bottom: 0px;
+}
 }
