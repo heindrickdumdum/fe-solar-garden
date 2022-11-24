@@ -250,5 +250,8 @@ a[title="Our Mission"] {
 .header-item--icons .site-nav {
     margin-right: 0px;
 }
+.page-full, .page-width {
+    padding: 0 17px !Important;
+}
 
 }
