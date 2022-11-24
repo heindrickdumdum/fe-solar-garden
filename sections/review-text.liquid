@@ -4,6 +4,9 @@
   {%- for block in section.blocks -%}
     <div class="theme-bock" {{ block.shopify_attributes }}>
       {%- case block.type -%}
+
+              {%- when 'html' -%}
+         {{ block.settings.html }}
       
        {%- when 'subheading' -%}
           <h2 class="sb">{{ block.settings.subtitle | escape }}</h2>
@@ -89,6 +92,17 @@
             "id": "subtitle",
             "label": "Sub Heading",
             "default": "Sub Title"
+          }
+        ]
+      },
+            {
+        "type": "html",
+        "name": "Html",
+        "settings": [
+          {
+            "type": "html",
+            "id": "html",
+            "label": "Html"
           }
         ]
       },
