@@ -198,6 +198,12 @@
     "165824850935159938": {
       "type": "review-text",
       "blocks": {
+        "97c4b703-48e3-4062-bb75-3a84279c5c8b": {
+          "type": "html",
+          "settings": {
+            "html": "<div class=\"brr medium-up--hide\">\n\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0513\/2346\/9996\/files\/Screen_Shot_2022-10-22_at_14.41_1.svg?v=1669275576\">\n\n      <span>100 Day Risk Free Trial<\/span>\n    <\/div>"
+          }
+        },
         "165824850955c28604-1": {
           "type": "text",
           "settings": {
@@ -213,6 +219,7 @@
         }
       },
       "block_order": [
+        "97c4b703-48e3-4062-bb75-3a84279c5c8b",
         "165824850955c28604-1",
         "165824850955c28604-0"
       ],

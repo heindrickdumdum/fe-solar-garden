@@ -1,12 +1,19 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="mx text-{{ section.settings.align_text }} page-width{% if section.settings.narrow_column %} page-width--narrow{% endif %}">
-  {%- for block in section.blocks -%}
+   {%- for block in section.blocks -%}
     <div class="theme-bock" {{ block.shopify_attributes }}>
       {%- case block.type -%}
 
               {%- when 'html' -%}
          {{ block.settings.html }}
+
+        {% endcase %}
+    </div>
+     {% endfor %}
+<div class="mx text-{{ section.settings.align_text }} page-width{% if section.settings.narrow_column %} page-width--narrow{% endif %}">
+  {%- for block in section.blocks -%}
+    <div class="theme-bock" {{ block.shopify_attributes }}>
+      {%- case block.type -%}
       
        {%- when 'subheading' -%}
           <h2 class="sb">{{ block.settings.subtitle | escape }}</h2>
