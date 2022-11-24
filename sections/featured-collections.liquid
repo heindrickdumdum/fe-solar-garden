@@ -27,7 +27,7 @@
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="{{ section.id}}-section page-width small--hide">
+<div class="{{ section.id}}-section page-width {% if section.settings.mobile_hide == true %} small--hide {% endif %}">
   {%- if section.settings.title != blank -%}
     <div class="section-header">
       <h2 class="section-header__title">{{ section.settings.title }}</h2>
@@ -157,6 +157,12 @@
     "class": "index-section",
     "max_blocks": 15,
     "settings": [
+            {
+        "type": "checkbox",
+        "id": "mobile_hide",
+        "label": "Mobile Hide",
+        "default": false
+      },
       {
         "type": "text",
         "id": "title",
