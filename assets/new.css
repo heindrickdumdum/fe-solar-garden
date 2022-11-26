@@ -299,7 +299,7 @@ a[title="Our Mission"] {
 }
 }
 
-@media (min-width: 1150px){
+@media only screen and (min-width: 1150px){
 #grid .grid-item-wrap {
     width: 25% !important;
 
