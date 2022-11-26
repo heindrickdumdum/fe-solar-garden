@@ -298,3 +298,11 @@ a[title="Our Mission"] {
     /* display: block; */
 }
 }
+
+@media (min-width: 1150px){
+#grid .grid-item-wrap {
+    width: 25% !important;
+
+
+}
+}
