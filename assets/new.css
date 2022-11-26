@@ -339,5 +339,8 @@ a[title="FAQs"] {
     font-size: 20px;
     margin: 0;
 }
+  .drawer-custom-content .drawer-nav-pages {
+    font-size: 18px;
+}
 
 }
