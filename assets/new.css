@@ -317,3 +317,27 @@ a[title="FAQs"] {
 }
 
 }
+
+@media only screen and (max-width: 768px){
+.grid-product__title {
+    font-size: 18px;
+}
+  .drawer-custom-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  .drawer-custom-content .nav-featured-item img {
+    max-width: initial;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+  .drawer-custom-content .nav-featured-item a p {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+}
