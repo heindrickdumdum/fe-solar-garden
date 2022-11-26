@@ -311,7 +311,7 @@
           "type": "rich-text",
           "settings": {
             "title": "",
-            "text": "<p><a href=\"\/pages\/faqs\" title=\"FAQs\">Read More<\/a> &gt;<\/p>",
+            "text": "<p><a href=\"\/pages\/faqs\" title=\"FAQs\">Read More &gt;<\/a> <\/p>",
             "align_text": "center"
           }
         }

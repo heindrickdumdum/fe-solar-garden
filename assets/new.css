@@ -307,6 +307,10 @@ a[title="Our Mission"] {
 }
 }
 
+a[title="FAQs"] {
+    font-size: 22px;
+    font-weight: 600;
+}
 @media only screen and (min-width: 769px){
 .section-header__title, .section-header.text-center h2, h2.fn40 {
     font-size: 40px;
