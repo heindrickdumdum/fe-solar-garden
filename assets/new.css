@@ -364,4 +364,7 @@ a[title="FAQs"] {
   button.site-nav__link.site-nav__link--icon.js-drawer-open-nav[aria-expanded="true"] svg.icon.icon-close {
     display: block;
 }
+  button.site-nav__link.site-nav__link--icon.js-drawer-open-nav[aria-expanded="true"] .ssg {
+    display: none !important;
+}
 }
