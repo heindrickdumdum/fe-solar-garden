@@ -342,5 +342,12 @@ a[title="FAQs"] {
   .drawer-custom-content .drawer-nav-pages {
     font-size: 18px;
 }
-
+.drawer--left.drawer--is-open {
+    transform: translateY(0%);
+}
+.drawer--left {
+    width: 100%;
+    left: 0px;
+    transform: translateY(-100%);
+}
 }
