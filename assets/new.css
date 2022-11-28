@@ -381,7 +381,21 @@ a[title="FAQs"] {
     font-size: 18px;
 }
 }
-
+[data-center-text=true] .collapsible-trigger-btn {
+    text-align: left;
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: 600;
+}
+.collapsible-trigger-btn--borders+.collapsible-content .collapsible-content__inner {
+    border: 0px solid;
+    padding: 0px 0px 20px;
+}
+.collapsible-trigger-btn--borders .collapsible-trigger__icon {
+    right: 0px;
+}
 @media only screen and (min-width: 769px){
 .product__price--compare {
     font-size: 24px;
