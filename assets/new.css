@@ -355,13 +355,13 @@ a[title="FAQs"] {
     box-shadow: none;
 }
 
-  button.site-nav__link.site-nav__link--icon.js-drawer-open-nav svg.icon.icon-close {
+  button.site-nav__link.site-nav__link--icon.js-drawer-open-nav[aria-expanded="false"] svg.icon.icon-close {
     display: none;
 }
   .js-drawer-closing .main-content:after, .js-drawer-open .main-content:after {
     background-color: transparent;
 }
-  button.site-nav__link.site-nav__link--icon.js-drawer-open-nav svg.icon.icon-close {
+  button.site-nav__link.site-nav__link--icon.js-drawer-open-nav[aria-expanded="true"] svg.icon.icon-close {
     display: block;
 }
 }
