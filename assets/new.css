@@ -373,4 +373,11 @@ a[title="FAQs"] {
     padding: 0px;
     color: white;
 }
+  a[title=FAQs] {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+  a[title="Our Mission"] {
+    font-size: 18px;
+}
 }
