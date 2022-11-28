@@ -2115,3 +2115,6 @@ li.site-nav__item.site-nav__expanded-item.site-nav--has-dropdown {
     height: 25px;
 }
 
+.product-block.product-block--price.price-after {
+    margin-top: 50px;
+}
