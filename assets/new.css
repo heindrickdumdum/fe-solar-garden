@@ -350,4 +350,8 @@ a[title="FAQs"] {
     left: 0px;
     transform: translateY(-100%);
 }
+  .drawer--left.drawer--is-open {
+    top: 90px;
+    box-shadow: none;
+}
 }
