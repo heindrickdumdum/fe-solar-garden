@@ -37,6 +37,27 @@
           "settings": {
           }
         },
+        "da7f0ddf-0f6f-4b2d-933c-77de15ed18b9": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "2X brighter than other festoon lights, and install in seconds"
+          }
+        },
+        "a8e06084-a031-4803-8294-5219207ceccf": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Built to last - IP65 weatherproof design, shatterproof bulbs and a lifetime replacement guarantee"
+          }
+        },
+        "e584aa14-af3e-4d08-a687-ee54af52d3eb": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Set & forget - charges during the day and automatically turns on at night"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -111,6 +132,9 @@
         "price",
         "loox-rating",
         "separator",
+        "da7f0ddf-0f6f-4b2d-933c-77de15ed18b9",
+        "a8e06084-a031-4803-8294-5219207ceccf",
+        "e584aa14-af3e-4d08-a687-ee54af52d3eb",
         "variant_picker",
         "sales_point",
         "inventory_status",
