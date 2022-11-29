@@ -236,7 +236,8 @@
                     {%- when 'variant_picker' -%}
                       <div class="product-block" {{ block.shopify_attributes }}>
                         {%- unless product.has_only_default_variant -%}
-                          {%- for option in product.options_with_values -%}
+                       
+                               {%- for variant in product.variants -%}
                             {%- liquid
                               if block.settings.color_swatches
                                 assign is_color = false
