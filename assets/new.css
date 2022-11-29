@@ -469,3 +469,11 @@ sav {
     width: 100%;
     padding: 3px;
 }
+
+[data-center-text=true] .variant-input-wrap label {
+    background: white;
+}
+
+.variant-input-wrap label {
+    box-shadow: 0 0 0 1px #3a692b;
+}
