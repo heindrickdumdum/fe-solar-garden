@@ -279,6 +279,7 @@
         "4a3eba56-f2b7-4e35-a9b0-eca003401926"
       ],
       "settings": {
+        "custom_class": "",
         "bg": "#f9f9f9",
         "title": "Have questions?"
       }
@@ -318,7 +319,7 @@
             "aggregated": false,
             "limit": 20,
             "hide_thumbnails": false,
-            "maxwidth": 1440
+            "maxwidth": 1120
           }
         }
       },
