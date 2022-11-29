@@ -2,7 +2,7 @@
 {%-
   assign current_variant = product.selected_or_first_available_variant -%}
     {%- for variant in product.variants -%}
-      {%- assign variant1 = variant.price -%}
+ {{ variant.price | money_with_currency }}
       {% endfor %}
       
 <div class="variant-wrapper js" data-type="button">
