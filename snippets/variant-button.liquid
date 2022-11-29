@@ -1,5 +1,7 @@
 {%- assign swatch_file_extension = 'png' -%}
-
+{%-
+  assign current_variant = product.selected_or_first_available_variant -%}
+   
 <div class="variant-wrapper js" data-type="button">
   <label class="bold variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
     for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
