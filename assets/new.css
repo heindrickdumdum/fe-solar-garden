@@ -436,5 +436,24 @@ dpa {
 
 .variant-input-wrap label {
     width: 155px;
-    height: 155px
+    height: 155px;
+    padding: 0px;
+}
+span.lbl-value {
+    display: block;
+}
+
+span.product__price.on-sale.var {
+    font-size: 15px;
+    margin: 0px;
+}
+
+span.product__price.product__price--compare.var {
+    font-size: 15px;
+    margin-right: 0px;
+}
+span.lbl-value {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
 }
