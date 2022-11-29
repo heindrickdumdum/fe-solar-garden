@@ -26,6 +26,8 @@
     data-handle="{{ option.name | handleize }}"
     id="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
     <legend class="hide">{{ option.name }}</legend>
+
+      {%- for variant in product.variants -%}
     {%- for value in option.values -%}
       {%- liquid
         assign product_available = true
@@ -93,5 +95,6 @@
         {%- endif -%}
       </div>
     {%- endfor -%}
+         {%- endfor -%}
   </fieldset>
 </div>
