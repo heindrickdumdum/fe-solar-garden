@@ -1,7 +1,10 @@
 {%- assign swatch_file_extension = 'png' -%}
 {%-
   assign current_variant = product.selected_or_first_available_variant -%}
-   
+    {%- for variant in product.variants -%}
+      {%- assign variant1 = variant.price -%}
+      {% endfor %}
+      
 <div class="variant-wrapper js" data-type="button">
   <label class="bold variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
     for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
@@ -66,7 +69,7 @@
             class="variant__button-label{% unless product_available %} disabled{% endunless %}">
             <span class="lbl-value">{{ value | escape }}</span>
 
- {{ value.price | money }}
+{{ variant1 | money_with_currency }}
             {% comment %} <span class="lbl-save">{{ value | handleize | split: "save-" | last }}</span> {% endcomment %}
           </label>
         {%- endif -%}
