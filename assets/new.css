@@ -418,3 +418,18 @@ button.btn.btn--full.add-to-cart {
 .bg.bg--template--15947239489708__165756494709c1ad91 .section-header.text-center {
     margin-bottom: 60px;
 }
+.icon-and-text {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: initial;
+    margin-top: 30px;
+}
+dpa {
+    width: 25px;
+    margin-right: 10px;
+    flex: none;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+}
