@@ -433,3 +433,8 @@ dpa {
     position: relative;
     top: 2px;
 }
+
+.variant-input-wrap label {
+    width: 155px;
+    height: 155px
+}
