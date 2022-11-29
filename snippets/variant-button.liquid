@@ -66,7 +66,7 @@
             class="variant__button-label{% unless product_available %} disabled{% endunless %}">
             <span class="lbl-value">{{ value | escape }}</span>
 
-   {{ variant.price | money_with_currency }}
+ {{ current_variant.price | money }}
             {% comment %} <span class="lbl-save">{{ value | handleize | split: "save-" | last }}</span> {% endcomment %}
           </label>
         {%- endif -%}
