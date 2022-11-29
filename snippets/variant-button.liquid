@@ -67,9 +67,14 @@
             class="variant__button-label{% unless product_available %} disabled{% endunless %}">
             <span class="lbl-value">{{ value | escape }}</span>
 
-    {%- for variant in product.variants limit: 1 -%}
- {{ variant.price | money_with_currency }}
-      {% endfor %}
+             <span data-product-price-wrap="" class="">
+                            <span data-compare-price="" class="product__price product__price--compare">$239.95
+</span>
+                          </span>
+
+            <span data-product-price="" class="product__price on-sale">$119.90
+</span>
+            
             {% comment %} <span class="lbl-save">{{ value | handleize | split: "save-" | last }}</span> {% endcomment %}
           </label>
         {%- endif -%}
