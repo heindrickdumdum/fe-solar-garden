@@ -26,8 +26,6 @@
     data-handle="{{ option.name | handleize }}"
     id="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
     <legend class="hide">{{ option.name }}</legend>
-
-    
     {%- for value in option.values -%}
       {%- liquid
         assign product_available = true
@@ -71,26 +69,20 @@
             <spaaa>
             <span class="lbl-value">{{ value | escape }}</span>
 
-              {% if product.metafields.custom.product_compare_price != blank %}
-        <span data-product-price-wrap="" class="">
+{{ variant.price | money_with_currency }}
+            
+             <span data-product-price-wrap="" class="">
                             <span data-compare-price="" class="product__price product__price--compare var">
-                            {{ product.metafields.custom.product_compare_price }}
 </span>
                           </span>
 
-              
-                {% endif %}
-
-              {% if product.metafields.custom.product_price != blank %}
-            <span data-product-price="" class="product__price on-sale var">
-              {{product.metafields.custom.product_price }}
+            <span data-product-price="" class="product__price on-sale var">$119.90
 </span>
-                {% endif %}
             </spaaa>
-            {% if product.metafields.custom.product_saving != blank %}
+            {% comment %} <span class="lbl-save">{{ value | handleize | split: "save-" | last }}</span> {% endcomment %}
 
-            <sav>{{ product.metafields.custom.product_saving }}</sav>
-              {% endif %}
+
+            <sav>Save $25</sav>
           </label>
         {%- endif -%}
       </div>
