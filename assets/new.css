@@ -438,9 +438,12 @@ dpa {
     width: 155px;
     height: 155px;
     padding: 0px;
+      border: 0px solid #3A692B;
+
 }
 span.lbl-value {
     display: block;
+  
 }
 
 span.product__price.on-sale.var {
@@ -456,4 +459,13 @@ span.lbl-value {
     display: block;
     margin-bottom: 5px;
     font-size: 20px;
+}
+
+sav {
+    background: rgba(58, 105, 43, 1);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 3px;
 }
