@@ -30,7 +30,7 @@
     
     {%- for value in option.values -%}
 
-      {%- for variant in product.variants -%}
+    
       {%- liquid
         assign product_available = true
         if product.options.size == 1
@@ -98,6 +98,6 @@
           </label>
         {%- endif -%}
       </div>
-    {%- endfor -%}   {% endfor %}
+    {%- endfor -%}
   </fieldset>
 </div>
