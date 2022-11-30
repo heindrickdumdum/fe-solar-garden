@@ -317,6 +317,13 @@
     "165825104534ba9472": {
       "type": "review-text",
       "blocks": {
+        "d8fb4707-aef3-4cb7-a92a-4a47fe29a678": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "950+ Reviews"
+          }
+        },
         "16582510452492a430-0": {
           "type": "heading",
           "settings": {
@@ -325,6 +332,7 @@
         }
       },
       "block_order": [
+        "d8fb4707-aef3-4cb7-a92a-4a47fe29a678",
         "16582510452492a430-0"
       ],
       "settings": {
