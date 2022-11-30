@@ -1,6 +1,6 @@
 {%- assign swatch_file_extension = 'png' -%}
      {%- for variant in product.variants -%}
-  {%- assign product_saving = variant.metafields.custom.product_saving[forloop.index0] -%}
+  {%- assign product_saving = variant.metafields.custom.product_saving -%}
    {% endfor %}
       
 <div class="variant-wrapper js" data-type="button">
