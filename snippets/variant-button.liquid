@@ -2,7 +2,7 @@
      {%- for variant in product.variants -%}
   {%- assign product_saving = variant.metafields.custom.product_saving -%}
    {% endfor %}
-         {%- for variant in product.variants -%}
+       
 <div class="variant-wrapper js" data-type="button">
   <label class="bold variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
     for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
@@ -29,7 +29,8 @@
 
     
     {%- for value in option.values -%}
-      
+
+      {%- for variant in product.variants -%}
       {%- liquid
         assign product_available = true
         if product.options.size == 1
@@ -97,7 +98,6 @@
           </label>
         {%- endif -%}
       </div>
-    {%- endfor -%}
+    {%- endfor -%}   {% endfor %}
   </fieldset>
 </div>
-   {% endfor %}
