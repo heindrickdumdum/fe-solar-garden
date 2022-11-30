@@ -30,7 +30,7 @@
     
 
  {%- for variant in product.variants -%}
-     {%- assign value = variant %}
+     {%- assign value = product.variants %}
       {%- liquid
         assign product_available = true
         if product.options.size == 1
