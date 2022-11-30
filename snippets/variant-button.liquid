@@ -73,6 +73,8 @@
             <spaaa>
             <span class="lbl-value">{{ value | escape }}</span>
 
+
+              {% if variant.metafields.custom.variant1_name == '{{ value | escape }}' %}
                    {%- for variant in product.variants -%}
    
               {% if variant.metafields.custom.variant_compare_price != blank %}
@@ -91,6 +93,7 @@
 </span>
                 {% endif %}
                         {% endfor %}
+                {% endif %}
             </spaaa>
 
             {% if variant.metafields.custom.variant_saving %}
