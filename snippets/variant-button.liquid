@@ -70,7 +70,7 @@
             class="variant__button-label{% unless product_available %} disabled{% endunless %}">
             
             <spaaa>
-            <span class="lbl-value">{{ value | escape }} - {{ product.options_with_values.price }}</span>
+            <span class="lbl-value">{{ value | escape }} - {{ product.options.price }}</span>
 
               {{ product.metafields.custom.product_compare_price }}
               {% if variant.metafields.custom.variant_compare_price != blank %}
