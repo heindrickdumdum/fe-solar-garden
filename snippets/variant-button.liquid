@@ -2,6 +2,9 @@
 {%-
   assign current_variant = product.selected_or_first_available_variant -%}
 
+ {%- for variant in product.variants -%}
+{{ variant.metafields.custom.product_saving }}
+   {% endfor %}
       
 <div class="variant-wrapper js" data-type="button">
   <label class="bold variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
