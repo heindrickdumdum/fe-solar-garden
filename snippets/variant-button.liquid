@@ -28,7 +28,8 @@
     <legend class="hide">{{ option.name }}</legend>
 
     
-    {%- for value in option.values -%}
+   {%- for variant in product.variants -%}
+            {%- assign value = variant.options[option_index] %}
       {%- liquid
         assign product_available = true
         if product.options.size == 1
