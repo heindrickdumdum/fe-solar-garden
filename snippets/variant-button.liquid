@@ -74,9 +74,9 @@
             <span class="lbl-value">{{ value | escape }}</span>
 
 
-              {% if variant.metafields.custom.variant1_name == '1 Pack' %}
+              
                    {%- for variant in product.variants -%}
-   
+   {% if variant.metafields.custom.variant1_name == '1 Pack' %}
               {% if variant.metafields.custom.variant_compare_price != blank %}
         <span data-product-price-wrap="" class="">
                             <span data-compare-price="" class="product__price product__price--compare var">
@@ -92,8 +92,9 @@
               {{ variant.metafields.custom.variant_price }}
 </span>
                 {% endif %}
+       {% endif %}
                         {% endfor %}
-                {% endif %}
+              
             </spaaa>
 
             {% if variant.metafields.custom.variant_saving %}
