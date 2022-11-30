@@ -2123,3 +2123,7 @@ li.site-nav__item.site-nav__expanded-item.site-nav--has-dropdown {
 sav {
     left: 0px;
 }
+
+.rte.clsd.sbh img {
+    vertical-align: middle;
+}
