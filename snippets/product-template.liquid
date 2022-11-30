@@ -252,7 +252,7 @@
           assign is_color = true
         endif
       -%}
-      {%- if is_color -%}
+
         {%- assign option_index = forloop.index0 -%}
         {%- assign values = '' -%}
         <div class="grid-product__colors grid-product__colors--{{ product.id }}">
@@ -282,14 +282,7 @@
             {%- endunless -%}
            {%- endfor -%}
         </div>
-        {%- if color_count < 2 -%}
-          {%- style -%}
-            .grid-product__colors--{{ product.id }} {
-              display: none;
-            }
-          {%- endstyle -%}
-        {%- endif -%}
-      {%- endif -%}
+ 
     {%- endfor -%}
                     
                         {%- unless product.has_only_default_variant -%}
