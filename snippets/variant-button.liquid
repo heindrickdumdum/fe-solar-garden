@@ -132,7 +132,35 @@
        {% endif %}
                {% endif %}
                         {% endfor %}
+
           
+                                 {%- for variant in product.variants -%}
+   {% if variant.metafields.custom.variant3_name ==  value %}
+    
+              {% if variant.metafields.custom.variant2_compare_price != blank %}
+        <span data-product-price-wrap="" class="">
+                            <span data-compare-price="" class="product__price product__price--compare var">
+                            {{ variant.metafields.custom.variant3_compare_price }}
+</span>
+                          </span>
+
+              
+                {% endif %}
+
+              {% if variant.metafields.custom.variant3_price != blank %}
+            <span data-product-price="" class="product__price on-sale var">
+              {{ variant.metafields.custom.variant3_price }}
+</span>
+                {% endif %}
+      
+              
+        
+
+            {% if variant.metafields.custom.variant3_saving %}
+            <sav>{{ variant.metafields.custom.variant3_saving }}</sav>
+       {% endif %}
+               {% endif %}
+                        {% endfor %}
             </spaaa>
           
           </label>
