@@ -540,6 +540,41 @@ sav {
     text-align: left;
     padding-top: 20px;
 }
+  span.product__price.product__price--compare {
+    font-size: 18px;
+    margin-right: 2px;
+}
+  .variant-input-wrap label {
+    width: 120px;
+    height: 130px;
+  }
+  span.lbl-value {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+  span.product__price.on-sale.var {
+    font-size: 11px;
+    margin: 0;
+}
+  span.product__price.product__price--compare.var {
+    font-size: 11px;
+  }
+  .variant-input-wrap label {
+    width: 94%;
+    height: 130px;
+    padding: 0;
+    border: 0px solid #3A692B;
+    /* flex: 33%; */
+    margin-right: 2px !important;
+    /* margin-right: 10px !important; */
+    /* margin-left: 10px !important; */
+}
+  .variant-input {
+    display: inline-block;
+    flex: 33%;
+    /* width: 33%; */
+}
 }
 
 @media only screen and (min-width: 769px){
