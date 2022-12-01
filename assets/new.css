@@ -523,6 +523,9 @@ sav {
     padding: !important;
     height: 55px;
 }
+  .flx.pdp-ratings-wrapper {
+    display: flex !important;
+}
   .collection-filter__item--sort {
     flex: 100%;
 }
