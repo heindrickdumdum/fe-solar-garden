@@ -526,6 +526,17 @@ sav {
   .collection-filter__item--sort {
     flex: 100%;
 }
+  .product__thumbs--below {
+    margin-top: 0;
+    display: none;
+}
+  .product__main-photos .flickity-page-dots {
+    display: block;
+}
+  .product-single__meta {
+    text-align: left;
+    padding-top: 20px;
+}
 }
 
 @media only screen and (min-width: 769px){
