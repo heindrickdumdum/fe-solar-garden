@@ -492,4 +492,7 @@ sav {
     margin-bottom: 20px;
     font-size: 26px !important;
 }
+  a.btn.btn--full.sh {
+    display: none;
+}
 }
