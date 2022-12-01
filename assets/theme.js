@@ -15,13 +15,6 @@ theme.config = {
   rtl: document.documentElement.getAttribute('dir') == 'rtl' ? true : false
 };
 
-if (theme.config.isTouch) {
-  document.documentElement.className += ' supports-touch';
-}
-
-if (console && console.log) {
-  console.log('Impulse theme ('+theme.settings.themeVersion+') by ARCHΞTYPE | Learn more at https://archetypethemes.co');
-}
 
 theme.recentlyViewed = {
   recent: {}, // will store handle+url of recent products
