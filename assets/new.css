@@ -477,3 +477,15 @@ sav {
 .variant-input-wrap label {
     box-shadow: 0 0 0 1px #3a692b;
 }
+@media only screen and (max-width: 769px){
+.grid-product__price--original {
+    display: none;
+}
+  span.grid-product__price--savings {
+    display: inline-block;
+    
+    width: 85px;
+
+}
+
+}
