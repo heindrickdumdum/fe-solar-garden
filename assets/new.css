@@ -579,6 +579,10 @@ sav {
 button.btn.btn--full.add-to-cart {
     margin-top: 10px;
 }
+  .template--15947239489708__2177fe1e-31b1-4755-a40a-dc1ffe4526e6.risk-trial-section {
+    padding: 25px !Important;
+        font-size: 20px !important;
+  }
 }
 
 @media only screen and (min-width: 769px){
