@@ -527,3 +527,9 @@ sav {
     flex: 100%;
 }
 }
+
+@media only screen and (min-width: 769px){
+.grid-product__title.grid-product__title--body {
+    height: 60px;
+}
+}
