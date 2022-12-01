@@ -477,6 +477,26 @@ sav {
 .variant-input-wrap label {
     box-shadow: 0 0 0 1px #3a692b;
 }
+@media only screen and (min-width: 769px){
+.collection-filter select {
+    margin-bottom: 40px;
+    display: block;
+    width: 100%;
+    width: 100%;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 15px;
+    height: 60px;
+    margin-top: 30px;
+}
+  .collection-filter__item--count {
+    text-align: left;
+    display: none;
+}
+  .collection-filter__item--sort {
+    flex: 0 1 48%;
+    flex: 100%;
+}
+}
 @media only screen and (max-width: 769px){
 .grid-product__price--original {
     display: none;
