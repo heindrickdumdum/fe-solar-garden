@@ -487,5 +487,9 @@ sav {
     width: 85px;
 
 }
-
+#footer-above-footer_above h3 {
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    font-size: 26px !important;
+}
 }
