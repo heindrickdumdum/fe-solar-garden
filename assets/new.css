@@ -635,4 +635,8 @@ button.btn.btn--full.add-to-cart {
   .bg.bg--template--15947239489708__165756494709c1ad91 {
     padding-top: 20px !important;
 }
+  .product-slideshow.flickity-enabled .product-main-slide {
+    width: 80%;
+}
+  
 }
