@@ -590,3 +590,14 @@ button.btn.btn--full.add-to-cart {
     height: 60px;
 }
 }
+@media only screen and (max-width: 769px){
+.product-slideshow.flickity-enabled .product-main-slide {
+
+    width: 90%;
+}
+  .product-single__meta {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+}
