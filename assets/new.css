@@ -641,4 +641,8 @@ button.btn.btn--full.add-to-cart {
   .bg.bg--template--15947239489708__165756494709c1ad91 div[style="margin: 0 auto; max-width: 140px;"] {
     max-width: 100px !important;
 }
+  #footer-above-footer_above p {
+    padding: 0px;
+    margin-top: 18px;
+}
 }
