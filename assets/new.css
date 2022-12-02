@@ -602,4 +602,18 @@ button.btn.btn--full.add-to-cart {
 .page-content.page-content--product .page-width {
     padding: 0px !IMPORTANT;
 }
+  .product__photos {
+    margin-top: 10px;
+}
+  .grid.vl {
+    background: rgba(249, 249, 249, 1);
+    margin-left: -22px;
+    margin-right: -22px;
+    padding: 10px 0px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+  .product-single__meta {
+    overflow-x: hidden;
+}
 }
