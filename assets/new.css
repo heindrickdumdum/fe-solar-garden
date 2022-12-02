@@ -648,4 +648,7 @@ button.btn.btn--full.add-to-cart {
   header.section-header.section-header--flush {
     margin-top: 20px;
 }
+  .collection-filter {
+    position: initial;
+}
 }
