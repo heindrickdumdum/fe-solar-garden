@@ -645,4 +645,7 @@ button.btn.btn--full.add-to-cart {
     padding: 0px;
     margin-top: 18px;
 }
+  header.section-header.section-header--flush {
+    margin-top: 20px;
+}
 }
