@@ -623,4 +623,8 @@ button.btn.btn--full.add-to-cart {
   .variant-input-wrap label {
     width: 100%;
   }
+.variant-wrapper.js label {
+    margin-bottom: 20px !important;
+}
+
 }
