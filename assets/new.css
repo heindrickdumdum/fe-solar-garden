@@ -629,4 +629,7 @@ button.btn.btn--full.add-to-cart {
 button.btn.btn--full.add-to-cart {
     margin-top: -8px;
 }
+  .variant-input-wrap label {
+    height: 115px;
+  }
 }
