@@ -638,5 +638,7 @@ button.btn.btn--full.add-to-cart {
   .product-slideshow.flickity-enabled .product-main-slide {
     width: 80%;
 }
-  
+  .bg.bg--template--15947239489708__165756494709c1ad91 div[style="margin: 0 auto; max-width: 140px;"] {
+    max-width: 100px !important;
+}
 }
