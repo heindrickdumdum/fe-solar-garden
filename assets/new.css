@@ -599,5 +599,7 @@ button.btn.btn--full.add-to-cart {
     padding-left: 17px;
     padding-right: 17px;
 }
-
+.page-content.page-content--product .page-width {
+    padding: 0px !IMPORTANT;
+}
 }
